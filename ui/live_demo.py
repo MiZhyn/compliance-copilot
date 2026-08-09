@@ -1092,9 +1092,17 @@ def render_live_demo() -> None:
     # Chat input
     # =====================================================
 
-    prompt = st.chat_input(
-        "Ask about visa, customs, transit or FST...",
-    )
+    with st.bottom:
+
+        with st.container(
+            key="chat_input_shell",
+        ):
+
+            prompt = st.chat_input(
+                "Ask about visa, customs, or FST...",
+                width="stretch",
+            )
+
 
     if prompt:
 
