@@ -1,0 +1,45 @@
+{
+  "extractor_version": "2026-08-08-ica-structured-v2",
+  "id": "visa-free-transit-facility",
+  "source": "ica",
+  "page_type": "vftf",
+  "title": "Visa Free Transit Facility",
+  "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa-free-transit-facility",
+  "overview": "The information on this page is a guide for visitors who may qualify for the 96-hour visa free transit facility (VFTF). This may be available to nationals of the Commonwealth of Independent States (CIS)[1], Georgia, India,\nTurkmenistan and Ukraine; as well as selected[2] Nationals of the People's Republic of China (PRC) who are not holding ordinary, diplomatic, public affairs\nor service PRC passports.\n\nTransit travellers who satisfy the criteria for VFTF will have to meet the prevailing entry requirements before they are allowed entry into Singapore. Assessment for entry is determined by the Immigration & Checkpoints Authority (ICA) officers at\nthe point of entry.\n\nExtension of stay for transit travellers under VFTF is strictly not allowed.",
+  "eligibility_groups": [
+    {
+      "title": "Nationals of India and selected Nationals of PRC",
+      "content": "If you are in transit to or from any third country via Singapore, you may be eligible for the 96-hour VFTF if you meet these requirements:",
+      "requirements": [
+        "You may enter Singapore by any mode of transport but depart only via air or sea. You must have a valid onward air/ferry/cruise ticket departing Singapore within 96 hours; and",
+        "You must have a valid visa[3] or long-term pass (with a validity of at least one month from the date of entry into Singapore under the VFTF) issued by and/or good for entry into any of the following countries:\n- Australia\n- Canada\n- Germany\n- Japan\n- New Zealand\n- Switzerland\n- United Kingdom\n- United States of America"
+      ]
+    },
+    {
+      "title": "Nationals of the CIS , Georgia, Turkmenistan and Ukraine",
+      "content": "If you are in transit to or from any third country, you may be eligible for the 96-hour VFTF if you have a valid onward air ticket departing within 96 hours. You may enter Singapore by any mode of transport but must depart Singapore by air.",
+      "requirements": []
+    }
+  ],
+  "footnotes": [
+    {
+      "id": "ftn1",
+      "number": "1",
+      "content": "[1] CIS refers to: Armenia, Azerbaijan, Belarus, Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Uzbekistan."
+    },
+    {
+      "id": "ftn2",
+      "number": "2",
+      "content": "[2] These include holder of the PRC Travel Document, Hong Kong Special Administrative Region (SAR) Document of Identity (DOI) and Macau SAR Travel Permit. Holder of ordinary, diplomatic, public affairs and service PRC passports are excluded."
+    },
+    {
+      "id": "ftn3",
+      "number": "3",
+      "content": "[3] Travellers with Single Journey Visas (SJV) may still be granted VFTF on the return leg of their journey (i.e., after the SJV is used and no longer valid), but you must:\n\n- Travel directly from the country that issued the SJV, en route through Singapore, back to your home country\n- Not have returned to your home country since you last used the SJV."
+    }
+  ],
+  "extraction_summary": {
+    "eligibility_group_count": 2,
+    "footnote_count": 3
+  }
+}

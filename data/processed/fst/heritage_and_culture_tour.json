@@ -1,0 +1,543 @@
+{
+  "extractor_version": "2026-08-08-fst-structured-components-v7",
+  "id": "heritage_and_culture_tour",
+  "name": "Heritage And Culture Tour",
+  "page_type": "tour",
+  "url": "https://www.changiairport.com/en/experience/tours/free-singapore-tour/heritage-and-culture-tour.html",
+  "title": "Heritage and Culture Tour",
+  "sections": [],
+  "registration_details": {
+    "title": "Registration Details",
+    "subsections": [
+      {
+        "title": "Service Counters",
+        "content": "Please stay in the transit area and do not clear immigration",
+        "items": [
+          {
+            "label": "Terminal 2",
+            "content": "Level 2, Transit Area, (near Gate F50)"
+          },
+          {
+            "label": "Terminal 3",
+            "content": "Level 2, Transit Area, (near Gate A1 - A8)"
+          },
+          {
+            "label": "Other Terminals",
+            "content": "Please take the skytrain within the Transit area and proceed to Terminal 3 for registration."
+          }
+        ]
+      },
+      {
+        "title": "Required Documents",
+        "content": "Passport, boarding passes, entry visa (if applicable) and tour booking confirmation",
+        "items": []
+      }
+    ]
+  },
+  "itineraries": [
+    {
+      "index": 1,
+      "title": "Central Business District",
+      "description": "Singapore’s financial and commercial district impresses with its modern skyscrapers.\n\nSituated in the middle is Singapore’s most historic Hawker Centre, Lau Pa Sat, home to a variety of local hawker fare and a bustling night street food scene.",
+      "image": {
+        "url": "https://changiairport.scene7.com/is/image/changiairport/heritage3-centralbusinessdistrict",
+        "alt": "Central Business District"
+      },
+      "source_component": "cmp-cardlisting--tlslider",
+      "slider_index": 1,
+      "slide_index": 1
+    },
+    {
+      "index": 2,
+      "title": "Chinatown (30-minute stopover)",
+      "description": "Chinatown is a culturally rich precinct featuring a mix of pre-war shophouses and iconic places of worship. Explore street murals painted by local artists that depict the daily lives of locals in the past.",
+      "image": {
+        "url": "https://changiairport.scene7.com/is/image/changiairport/heritage1-buddhatoothrelic",
+        "alt": "Chinatown"
+      },
+      "source_component": "cmp-cardlisting--tlslider",
+      "slider_index": 1,
+      "slide_index": 2
+    },
+    {
+      "index": 3,
+      "title": "Optional add-on: Chinatown Heritage Centre*",
+      "description": "Get a glimpse of the various iconic landmarks of Singapore scattered around Marina Bay. Keep this modern view in mind and contrast it with what you will see in ‘olden Singapore’ later.\n\n*Add-on is optional and payable. Payment is to be made during the tour.",
+      "image": {
+        "url": "https://changiairport.scene7.com/is/image/changiairport/heritage2-chinatownheritagecentre",
+        "alt": ""
+      },
+      "source_component": "cmp-cardlisting--tlslider",
+      "slider_index": 1,
+      "slide_index": 3
+    },
+    {
+      "index": 4,
+      "title": "Singapore River",
+      "description": "Known as the lifeline of Singapore, the Singapore River and its quays were where the economy of Singapore began. You will be able to see the former godowns and warehouses along Boat Quay and Clarke Quay as you cross the river.",
+      "image": {
+        "url": "https://changiairport.scene7.com/is/image/changiairport/SingaporeRiver",
+        "alt": "Singapore River"
+      },
+      "source_component": "cmp-cardlisting--tlslider",
+      "slider_index": 1,
+      "slide_index": 4
+    },
+    {
+      "index": 5,
+      "title": "Kampong Gelam (30-minute stopover)",
+      "description": "One of Singapore’s oldest urban quarters. Kampong Gelam is an alluring neighbourhood where age-old traditions meet trendy lifestyles. With a strong Malay-Arab influence, admire the golden dome of the Sultan Mosque set amidst modern art galleries and cafes.",
+      "image": {
+        "url": "https://changiairport.scene7.com/is/image/changiairport/heritage-tour-image",
+        "alt": "Kampong Gelam"
+      },
+      "source_component": "cmp-cardlisting--tlslider",
+      "slider_index": 1,
+      "slide_index": 5
+    }
+  ],
+  "tabs": [],
+  "accordions": [],
+  "tables": [
+    {
+      "caption": "Table 1",
+      "headers": [],
+      "rows": [
+        [
+          "Reporting Time",
+          "Tour Timing",
+          "Your Flight Departure Time"
+        ],
+        [
+          "Before 08:30 AM",
+          "10:00 AM – 12.30 PM",
+          "After 02.30 PM"
+        ]
+      ],
+      "notes": [
+        "Kindly note that 90minutes is set aside between Reporting Time and Tour Timing for the clearance of Arrival Immigration."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.changiairport.com/etc.clientlibs/changiairport/clientlibs/clientlib-site/resources/images/plane-arrival-search.svg",
+      "alt": "",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/etc.clientlibs/changiairport/clientlibs/clientlib-site/resources/images/plane-departure-search.svg",
+      "alt": "",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://changiairport.scene7.com/is/image/changiairport/dt_1140x425_free_singapore_tour:4by1?wid=1400&hei=350&qlt=85,0&resMode=sharp2",
+      "alt": "",
+      "nearby_heading": "Heritage and Culture Tour",
+      "nearby_text": "Discover Singapore's colonial past and cultural districts",
+      "links": []
+    },
+    {
+      "url": "https://changiairport.scene7.com/is/image/changiairport/heritage3-centralbusinessdistrict:1by1?wid=540&hei=540&qlt=85,0&resMode=sharp2",
+      "alt": "Central Business District",
+      "nearby_heading": "Central Business District",
+      "nearby_text": "Singapore’s financial and commercial district impresses with its modern skyscrapers.\n\nSituated in the middle is Singapore’s most historic Hawker Centre, Lau Pa Sat, home to a variety of local hawker fare and a bustling night street food scene.",
+      "links": []
+    },
+    {
+      "url": "https://changiairport.scene7.com/is/image/changiairport/heritage1-buddhatoothrelic:7by5?wid=540&hei=386&qlt=85,0&resMode=sharp2",
+      "alt": "Chinatown",
+      "nearby_heading": "Chinatown (30-minute stopover)",
+      "nearby_text": "Chinatown is a culturally rich precinct featuring a mix of pre-war shophouses and iconic places of worship. Explore street murals painted by local artists that depict the daily lives of locals in the past.",
+      "links": []
+    },
+    {
+      "url": "https://changiairport.scene7.com/is/image/changiairport/heritage2-chinatownheritagecentre:7by5?wid=540&hei=386&qlt=85,0&resMode=sharp2",
+      "alt": "",
+      "nearby_heading": "Optional add-on: Chinatown Heritage Centre*",
+      "nearby_text": "Get a glimpse of the various iconic landmarks of Singapore scattered around Marina Bay. Keep this modern view in mind and contrast it with what you will see in ‘olden Singapore’ later.\n\n*Add-on is optional and payable. Payment is to be made during the tour.",
+      "links": []
+    },
+    {
+      "url": "https://changiairport.scene7.com/is/image/changiairport/SingaporeRiver:7by5?wid=540&hei=386&qlt=85,0&resMode=sharp2",
+      "alt": "Singapore River",
+      "nearby_heading": "Singapore River",
+      "nearby_text": "Known as the lifeline of Singapore, the Singapore River and its quays were where the economy of Singapore began. You will be able to see the former godowns and warehouses along Boat Quay and Clarke Quay as you cross the river.",
+      "links": []
+    },
+    {
+      "url": "https://changiairport.scene7.com/is/image/changiairport/heritage-tour-image:7by5?wid=540&hei=386&qlt=85,0&resMode=sharp2",
+      "alt": "Kampong Gelam",
+      "nearby_heading": "Kampong Gelam (30-minute stopover)",
+      "nearby_text": "One of Singapore’s oldest urban quarters. Kampong Gelam is an alluring neighbourhood where age-old traditions meet trendy lifestyles. With a strong Malay-Arab influence, admire the golden dome of the Sultan Mosque set amidst modern art galleries and cafes.",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/AppStore.svg",
+      "alt": "first",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/GooglePlay.svg",
+      "alt": "scnd",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/facebook-app-symbol.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/instagram.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/linkedin.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/telegram.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/Icon-tiktok(resized).png",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/Icon-x(resized).png",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/youtube.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/wechat-logo.png",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/sina-weibo.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/icon.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/header/logo-light.png",
+      "alt": "logo",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Book now",
+      "url": "https://fst.changiairport.com/#/heritagetour?source=APP"
+    },
+    {
+      "text": "Fly",
+      "url": "https://www.changiairport.com/en/fly.html"
+    },
+    {
+      "text": "Flight Information",
+      "url": "https://www.changiairport.com/en/fly/flight-information.html"
+    },
+    {
+      "text": "Airline Information",
+      "url": "https://www.changiairport.com/en/fly/airline-information.html"
+    },
+    {
+      "text": "Arrival Guide",
+      "url": "https://www.changiairport.com/en/fly/arrival-guide.html"
+    },
+    {
+      "text": "Departure Guide",
+      "url": "https://www.changiairport.com/en/fly/departure-guide.html"
+    },
+    {
+      "text": "Transiting Guide",
+      "url": "https://www.changiairport.com/en/fly/transit-guide.html"
+    },
+    {
+      "text": "Lounges",
+      "url": "https://www.changiairport.com/en/fly/lounges.html"
+    },
+    {
+      "text": "At Changi",
+      "url": "https://www.changiairport.com/en/at-changi.html"
+    },
+    {
+      "text": "Map",
+      "url": "https://www.changiairport.com/en/at-changi/map.html"
+    },
+    {
+      "text": "Terminal Guides",
+      "url": "https://www.changiairport.com/en/at-changi/terminal-guides.html"
+    },
+    {
+      "text": "Transport & Directions",
+      "url": "https://www.changiairport.com/en/at-changi/transport-and-directions.html"
+    },
+    {
+      "text": "Special Assistance",
+      "url": "https://www.changiairport.com/en/at-changi/special-assistance.html"
+    },
+    {
+      "text": "Facilities & Services",
+      "url": "https://www.changiairport.com/en/at-changi/facilities-and-services-directory.html"
+    },
+    {
+      "text": "Hotels",
+      "url": "https://www.changiairport.com/en/at-changi/facilities-and-services-directory.html?category=hotels"
+    },
+    {
+      "text": "Jewel Changi Airport",
+      "url": "https://www.jewelchangiairport.com/"
+    },
+    {
+      "text": "Plan Your Events",
+      "url": "https://www.changiairport.com/en/at-changi/plan-your-events.html"
+    },
+    {
+      "text": "Dine & Shop",
+      "url": "https://www.changiairport.com/en/dine-and-shop.html"
+    },
+    {
+      "text": "Dining",
+      "url": "https://www.changiairport.com/en/dine-and-shop/dining-directory.html"
+    },
+    {
+      "text": "Shopping",
+      "url": "https://www.changiairport.com/en/dine-and-shop/shop-directory.html"
+    },
+    {
+      "text": "Changi Pay",
+      "url": "https://www.changiairport.com/en/help/changi-app/changi-pay.html"
+    },
+    {
+      "text": "Rewards",
+      "url": "https://www.changiairport.com/en/rewards.html"
+    },
+    {
+      "text": "Shopping Concierge",
+      "url": "https://www.changiairport.com/en/dine-and-shop/shopping-concierge.html"
+    },
+    {
+      "text": "Shop Online",
+      "url": "https://www.ishopchangi.com/en/home?utm_source=changiairport.com&utm_medium=dineandshop&utm_campaign=ao&utm_term=dineandshopfooter&utm_content=shoponlineanchortext&cmode=tr"
+    },
+    {
+      "text": "Experience",
+      "url": "https://www.changiairport.com/en/experience.html"
+    },
+    {
+      "text": "Attractions",
+      "url": "https://www.changiairport.com/en/experience/attractions-directory.html"
+    },
+    {
+      "text": "Experiences for Kids",
+      "url": "https://www.changiairport.com/en/experience/kids.html"
+    },
+    {
+      "text": "Free Tours",
+      "url": "https://www.changiairport.com/en/experience/tours.html"
+    },
+    {
+      "text": "Happenings",
+      "url": "https://www.changiairport.com/en/happenings.html"
+    },
+    {
+      "text": "Events",
+      "url": "https://www.changiairport.com/en/happenings/events-directory.html"
+    },
+    {
+      "text": "Promotions",
+      "url": "https://www.changiairport.com/en/happenings/promotions.html"
+    },
+    {
+      "text": "Changi Rewards",
+      "url": "https://www.changiairport.com/en/rewards.html"
+    },
+    {
+      "text": "Benefits & Privileges",
+      "url": "https://www.changiairport.com/en/rewards/benefits-and-privileges.html"
+    },
+    {
+      "text": "Changi Rewards Catalogue",
+      "url": "https://www.changiairport.com/en/rewards/catalogue.html"
+    },
+    {
+      "text": "Specials",
+      "url": "https://www.changiairport.com/en/rewards/members-special.html"
+    },
+    {
+      "text": "Events",
+      "url": "https://www.changiairport.com/en/rewards/members-events.html"
+    },
+    {
+      "text": "Changi Monarch",
+      "url": "https://www.changiairport.com/en/rewards/monarch.html"
+    },
+    {
+      "text": "Help",
+      "url": "https://www.changiairport.com/en/help.html"
+    },
+    {
+      "text": "App & Help",
+      "url": "https://www.changiairport.com/en/help.html"
+    },
+    {
+      "text": "Assistance",
+      "url": "https://www.changiairport.com/en/help/assistance.html"
+    },
+    {
+      "text": "Changi App",
+      "url": "https://www.changiairport.com/en/help/changi-app.html"
+    },
+    {
+      "text": "Contact Information",
+      "url": "https://www.changiairport.com/en/help/contact-us.html"
+    },
+    {
+      "text": "",
+      "url": "https://apps.apple.com/sg/app/ichangi/id391730848"
+    },
+    {
+      "text": "",
+      "url": "https://play.google.com/store/apps/details?id=com.changiairport.cagapp"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/changiairport"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/changiairport"
+    },
+    {
+      "text": "",
+      "url": "https://www.linkedin.com/company/changiairportgroup"
+    },
+    {
+      "text": "",
+      "url": "https://bit.ly/2xQwNT8"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@changiairport?lang=en"
+    },
+    {
+      "text": "",
+      "url": "https://x.com/changiairport"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/c/changiairport"
+    },
+    {
+      "text": "",
+      "url": "https://www.changiairport.com/en/help/wechat.html"
+    },
+    {
+      "text": "",
+      "url": "https://weibo.com/changiairport"
+    },
+    {
+      "text": "",
+      "url": "https://www.xiaohongshu.com/user/profile/5e15eed30000000001001063"
+    },
+    {
+      "text": "Sign Up",
+      "url": "https://www.changiairport.com/en/rewards/dashboard.html"
+    },
+    {
+      "text": "",
+      "url": "https://www.changiairport.com/en.html"
+    },
+    {
+      "text": "Airport",
+      "url": "https://www.changiairport.com/en.html"
+    },
+    {
+      "text": "Corporate",
+      "url": "https://www.changiairport.com/en/corporate.html"
+    },
+    {
+      "text": "Careers",
+      "url": "https://www.changiairport.com/en/careers.html"
+    },
+    {
+      "text": "CAI",
+      "url": "https://www.changiairport.com/en/cai.html"
+    },
+    {
+      "text": "Jewel",
+      "url": "https://www.jewelchangiairport.com/"
+    },
+    {
+      "text": "Now Boarding",
+      "url": "https://nowboarding.changiairport.com"
+    },
+    {
+      "text": "By-laws & Conditions of Use",
+      "url": "https://www.changiairport.com/en/by-laws-and-conditions-of-use.html"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.changiairport.com/en/privacy-policy.html"
+    },
+    {
+      "text": "Vulnerability Disclosure Policy",
+      "url": "https://www.changiairport.com/en/vulnerability-disclosure-policy.html"
+    }
+  ],
+  "extraction_summary": {
+    "section_count": 0,
+    "registration_subsection_count": 2,
+    "itinerary_count": 5,
+    "tab_count": 0,
+    "accordion_count": 0,
+    "table_count": 1,
+    "image_count": 21,
+    "link_count": 65
+  }
+}

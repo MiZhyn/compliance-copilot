@@ -1,0 +1,353 @@
+[
+  {
+    "page_id": "afghanistan",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\afghanistan.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "algeria",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\algeria.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "armenia",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\armenia.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "azerbaijan",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\azerbaijan.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "bangladesh",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\bangladesh.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "belarus",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\belarus.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "democratic-people-s-republic-of-korea",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\democratic-people-s-republic-of-korea.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "document-of-identity-issued-by-hong-kong-special-administrative-region",
+    "status": "failed",
+    "error": "Unsupported ICA page type: document-of-identity-issued-by-hong-kong-special-administrative-region"
+  },
+  {
+    "page_id": "egypt",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\egypt.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "georgia",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\georgia.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "ica_visa_requirements",
+    "page_type": "visa_index",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\ica_visa_requirements.json",
+    "summary": {
+      "section_count": 1,
+      "country_count": 34
+    }
+  },
+  {
+    "page_id": "india",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\india.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "iran",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\iran.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "iraq",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\iraq.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "jordan",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\jordan.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "kazakhstan",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\kazakhstan.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "kosovo",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\kosovo.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "kyrgyzstan",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\kyrgyzstan.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "lebanon",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\lebanon.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "libya",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\libya.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "mali",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\mali.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "moldova",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\moldova.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "morocco",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\morocco.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "nigeria",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\nigeria.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "pakistan",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\pakistan.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "palestinian-authority-passport",
+    "status": "failed",
+    "error": "Unsupported ICA page type: palestinian-authority-passport"
+  },
+  {
+    "page_id": "prc-travel-document",
+    "status": "failed",
+    "error": "Unsupported ICA page type: prc-travel-document"
+  },
+  {
+    "page_id": "russia",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\russia.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "somalia",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\somalia.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "south-sudan",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\south-sudan.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "sudan",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\sudan.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "syria",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\syria.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "tajikistan",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\tajikistan.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "temporary-passport-issued-by-the-united-arab-emirates",
+    "status": "failed",
+    "error": "Unsupported ICA page type: temporary-passport-issued-by-the-united-arab-emirates"
+  },
+  {
+    "page_id": "travel-permit-issued-by-macao-special-administrative-region",
+    "status": "failed",
+    "error": "Unsupported ICA page type: travel-permit-issued-by-macao-special-administrative-region"
+  },
+  {
+    "page_id": "tunisia",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\tunisia.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "turkmenistan",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\turkmenistan.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "ukraine",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\ukraine.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "uzbekistan",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\uzbekistan.json",
+    "summary": {
+      "section_count": 5
+    }
+  },
+  {
+    "page_id": "visa-free-transit-facility",
+    "page_type": "vftf",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\visa-free-transit-facility.json",
+    "summary": {
+      "eligibility_group_count": 2,
+      "footnote_count": 3
+    }
+  },
+  {
+    "page_id": "yemen",
+    "page_type": "visa_detail",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\visa\\yemen.json",
+    "summary": {
+      "section_count": 5
+    }
+  }
+]

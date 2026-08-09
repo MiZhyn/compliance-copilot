@@ -1,0 +1,548 @@
+{
+  "extractor_version": "2026-08-08-fst-structured-components-v7",
+  "id": "singapore_river_and_marina_bay_sands",
+  "name": "Singapore River and Marina Bay Sands",
+  "page_type": "tour",
+  "url": "https://www.changiairport.com/en/experience/tours/free-singapore-tour/singapore-river-mbs.html",
+  "title": "SINGAPORE RIVER AND MARINA BAY SANDS TOUR",
+  "sections": [],
+  "registration_details": {
+    "title": "Registration Details",
+    "subsections": [
+      {
+        "title": "Service Counters",
+        "content": "Please stay in the transit area and do not clear immigration",
+        "items": [
+          {
+            "label": "Terminal 2",
+            "content": "Level 2, Transit Area, (near Gate F50)"
+          },
+          {
+            "label": "Terminal 3",
+            "content": "Level 2, Transit Area, (near Gate A1 - A8)"
+          },
+          {
+            "label": "Other Terminals",
+            "content": "Please take the skytrain within the Transit area and proceed to Terminal 3 for registration."
+          }
+        ]
+      },
+      {
+        "title": "Required Documents",
+        "content": "Passport, boarding passes, entry visa (if applicable) and tour booking confirmation",
+        "items": []
+      }
+    ]
+  },
+  "itineraries": [
+    {
+      "index": 1,
+      "title": "Clarke Quay",
+      "description": "Located along the banks of the Singapore River, the vibrant Clarke Quay is a lively hub of entertainment, dining and nightlife, with stunning waterfront views.",
+      "image": {
+        "url": "https://changiairport.scene7.com/is/image/changiairport/singaporeriver1-clarkequay",
+        "alt": "Clarke Quay"
+      },
+      "source_component": "cmp-cardlisting--tlslider",
+      "slider_index": 1,
+      "slide_index": 1
+    },
+    {
+      "index": 2,
+      "title": "Singapore River (30-minute stopover)",
+      "description": "Follow the path of the Singapore River, the lifeblood of Singapore’s early trading days. Learn how this historic waterway transformed from a busy port filled with bumboats into a picturesque promenade, lined with beautifully preserved shophouses and cultural sites.",
+      "image": {
+        "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/singaporeriver-mbs/singaporeriver3-commercialbuildings.jpg",
+        "alt": "Singapore River (30-minute stopover)"
+      },
+      "source_component": "cmp-cardlisting--tlslider",
+      "slider_index": 1,
+      "slide_index": 2
+    },
+    {
+      "index": 3,
+      "title": "Optional add-on: Singapore River Cruise*",
+      "description": "Enhance your experience by gliding along the Singapore River on a scenic cruise. Board an electric bumboat and enjoy a relaxing ride into Marina Bay, while listening to insightful commentary about Singapore’s journey from a colonial trading post to a global metropolis.\n\n*Add-on is optional and comes with an additional cost, at your own expense. Payment will be collected during the tour.",
+      "image": {
+        "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/singaporeriver-mbs/singaporeriver2-rivercruise.jpg",
+        "alt": "Optional add-on"
+      },
+      "source_component": "cmp-cardlisting--tlslider",
+      "slider_index": 1,
+      "slide_index": 3
+    },
+    {
+      "index": 4,
+      "title": "Marina Bay Waterfront",
+      "description": "As you approach Marina Bay, marvel at the city’s breathtaking skyline with impressive structures like the ArtScience Museum and the soaring skyscrapers of the Central Business District.",
+      "image": {
+        "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/singaporeriver-mbs/fst-mainpage-singaporeriver-mbs-tour.jpg",
+        "alt": "Marina Bay Waterfront"
+      },
+      "source_component": "cmp-cardlisting--tlslider",
+      "slider_index": 1,
+      "slide_index": 4
+    },
+    {
+      "index": 5,
+      "title": "Marina Bay Sands Shoppes and Hotel (30 min stopover)",
+      "description": "Explore one of Singapore’s most luxurious destinations, housing designer brands, celebrity-chef restaurants and an indoor canal with gondola rides. Above it all, the iconic MBS Hotel rises majestically, home to the world’s largest infinity pool.",
+      "image": {
+        "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/singaporeriver-mbs/singaporeriver4-mbsshoppes.jpg",
+        "alt": "Marina Bay Sands Shoppes and Hotel (30 min stopover)"
+      },
+      "source_component": "cmp-cardlisting--tlslider",
+      "slider_index": 1,
+      "slide_index": 5
+    }
+  ],
+  "tabs": [],
+  "accordions": [],
+  "tables": [
+    {
+      "caption": "Table 1",
+      "headers": [],
+      "rows": [
+        [
+          "Reporting Time",
+          "Tour Timing",
+          "Your Flight Departure Time"
+        ],
+        [
+          "Before 11:30 AM",
+          "1:00 PM – 3.30 PM",
+          "After 5.30 PM"
+        ],
+        [
+          "Before 2:30 PM",
+          "4:00 PM – 6:30 PM",
+          "After 8:30 PM"
+        ]
+      ],
+      "notes": [
+        "Kindly note that 90minutes is set aside between Reporting Time and Tour Timing for the clearance of Arrival Immigration."
+      ]
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.changiairport.com/etc.clientlibs/changiairport/clientlibs/clientlib-site/resources/images/plane-arrival-search.svg",
+      "alt": "",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/etc.clientlibs/changiairport/clientlibs/clientlib-site/resources/images/plane-departure-search.svg",
+      "alt": "",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://changiairport.scene7.com/is/image/changiairport/dt_1140x425_free_singapore_tour:4by1?wid=1400&hei=350&qlt=85,0&resMode=sharp2",
+      "alt": "",
+      "nearby_heading": "SINGAPORE RIVER AND MARINA BAY SANDS TOUR",
+      "nearby_text": "Journey from Trading Post to Modern Marvels",
+      "links": []
+    },
+    {
+      "url": "https://changiairport.scene7.com/is/image/changiairport/singaporeriver1-clarkequay:1by1?wid=540&hei=540&qlt=85,0&resMode=sharp2",
+      "alt": "Clarke Quay",
+      "nearby_heading": "Clarke Quay",
+      "nearby_text": "Located along the banks of the Singapore River, the vibrant Clarke Quay is a lively hub of entertainment, dining and nightlife, with stunning waterfront views.",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/singaporeriver-mbs/singaporeriver3-commercialbuildings.jpg",
+      "alt": "Singapore River (30-minute stopover)",
+      "nearby_heading": "Singapore River (30-minute stopover)",
+      "nearby_text": "Follow the path of the Singapore River, the lifeblood of Singapore’s early trading days. Learn how this historic waterway transformed from a busy port filled with bumboats into a picturesque promenade, lined with beautifully preserved shophouses and cultural sites.",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/singaporeriver-mbs/singaporeriver2-rivercruise.jpg",
+      "alt": "Optional add-on",
+      "nearby_heading": "Optional add-on: Singapore River Cruise*",
+      "nearby_text": "Enhance your experience by gliding along the Singapore River on a scenic cruise. Board an electric bumboat and enjoy a relaxing ride into Marina Bay, while listening to insightful commentary about Singapore’s journey from a colonial trading post to a global metropolis.\n\n*Add-on is optional and comes with an additional cost, at your own expense. Payment will be collected during the tour.",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/singaporeriver-mbs/fst-mainpage-singaporeriver-mbs-tour.jpg",
+      "alt": "Marina Bay Waterfront",
+      "nearby_heading": "Marina Bay Waterfront",
+      "nearby_text": "As you approach Marina Bay, marvel at the city’s breathtaking skyline with impressive structures like the ArtScience Museum and the soaring skyscrapers of the Central Business District.",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/singaporeriver-mbs/singaporeriver4-mbsshoppes.jpg",
+      "alt": "Marina Bay Sands Shoppes and Hotel (30 min stopover)",
+      "nearby_heading": "Marina Bay Sands Shoppes and Hotel (30 min stopover)",
+      "nearby_text": "Explore one of Singapore’s most luxurious destinations, housing designer brands, celebrity-chef restaurants and an indoor canal with gondola rides. Above it all, the iconic MBS Hotel rises majestically, home to the world’s largest infinity pool.",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/AppStore.svg",
+      "alt": "first",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/GooglePlay.svg",
+      "alt": "scnd",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/facebook-app-symbol.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/instagram.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/linkedin.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/telegram.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/Icon-tiktok(resized).png",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/Icon-x(resized).png",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/youtube.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/wechat-logo.png",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/sina-weibo.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/icon.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/header/logo-light.png",
+      "alt": "logo",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Book now",
+      "url": "https://fst.changiairport.com/#/fstsingaporeriverandmarinabaysandstour?source=APP"
+    },
+    {
+      "text": "Fly",
+      "url": "https://www.changiairport.com/en/fly.html"
+    },
+    {
+      "text": "Flight Information",
+      "url": "https://www.changiairport.com/en/fly/flight-information.html"
+    },
+    {
+      "text": "Airline Information",
+      "url": "https://www.changiairport.com/en/fly/airline-information.html"
+    },
+    {
+      "text": "Arrival Guide",
+      "url": "https://www.changiairport.com/en/fly/arrival-guide.html"
+    },
+    {
+      "text": "Departure Guide",
+      "url": "https://www.changiairport.com/en/fly/departure-guide.html"
+    },
+    {
+      "text": "Transiting Guide",
+      "url": "https://www.changiairport.com/en/fly/transit-guide.html"
+    },
+    {
+      "text": "Lounges",
+      "url": "https://www.changiairport.com/en/fly/lounges.html"
+    },
+    {
+      "text": "At Changi",
+      "url": "https://www.changiairport.com/en/at-changi.html"
+    },
+    {
+      "text": "Map",
+      "url": "https://www.changiairport.com/en/at-changi/map.html"
+    },
+    {
+      "text": "Terminal Guides",
+      "url": "https://www.changiairport.com/en/at-changi/terminal-guides.html"
+    },
+    {
+      "text": "Transport & Directions",
+      "url": "https://www.changiairport.com/en/at-changi/transport-and-directions.html"
+    },
+    {
+      "text": "Special Assistance",
+      "url": "https://www.changiairport.com/en/at-changi/special-assistance.html"
+    },
+    {
+      "text": "Facilities & Services",
+      "url": "https://www.changiairport.com/en/at-changi/facilities-and-services-directory.html"
+    },
+    {
+      "text": "Hotels",
+      "url": "https://www.changiairport.com/en/at-changi/facilities-and-services-directory.html?category=hotels"
+    },
+    {
+      "text": "Jewel Changi Airport",
+      "url": "https://www.jewelchangiairport.com/"
+    },
+    {
+      "text": "Plan Your Events",
+      "url": "https://www.changiairport.com/en/at-changi/plan-your-events.html"
+    },
+    {
+      "text": "Dine & Shop",
+      "url": "https://www.changiairport.com/en/dine-and-shop.html"
+    },
+    {
+      "text": "Dining",
+      "url": "https://www.changiairport.com/en/dine-and-shop/dining-directory.html"
+    },
+    {
+      "text": "Shopping",
+      "url": "https://www.changiairport.com/en/dine-and-shop/shop-directory.html"
+    },
+    {
+      "text": "Changi Pay",
+      "url": "https://www.changiairport.com/en/help/changi-app/changi-pay.html"
+    },
+    {
+      "text": "Rewards",
+      "url": "https://www.changiairport.com/en/rewards.html"
+    },
+    {
+      "text": "Shopping Concierge",
+      "url": "https://www.changiairport.com/en/dine-and-shop/shopping-concierge.html"
+    },
+    {
+      "text": "Shop Online",
+      "url": "https://www.ishopchangi.com/en/home?utm_source=changiairport.com&utm_medium=dineandshop&utm_campaign=ao&utm_term=dineandshopfooter&utm_content=shoponlineanchortext&cmode=tr"
+    },
+    {
+      "text": "Experience",
+      "url": "https://www.changiairport.com/en/experience.html"
+    },
+    {
+      "text": "Attractions",
+      "url": "https://www.changiairport.com/en/experience/attractions-directory.html"
+    },
+    {
+      "text": "Experiences for Kids",
+      "url": "https://www.changiairport.com/en/experience/kids.html"
+    },
+    {
+      "text": "Free Tours",
+      "url": "https://www.changiairport.com/en/experience/tours.html"
+    },
+    {
+      "text": "Happenings",
+      "url": "https://www.changiairport.com/en/happenings.html"
+    },
+    {
+      "text": "Events",
+      "url": "https://www.changiairport.com/en/happenings/events-directory.html"
+    },
+    {
+      "text": "Promotions",
+      "url": "https://www.changiairport.com/en/happenings/promotions.html"
+    },
+    {
+      "text": "Changi Rewards",
+      "url": "https://www.changiairport.com/en/rewards.html"
+    },
+    {
+      "text": "Benefits & Privileges",
+      "url": "https://www.changiairport.com/en/rewards/benefits-and-privileges.html"
+    },
+    {
+      "text": "Changi Rewards Catalogue",
+      "url": "https://www.changiairport.com/en/rewards/catalogue.html"
+    },
+    {
+      "text": "Specials",
+      "url": "https://www.changiairport.com/en/rewards/members-special.html"
+    },
+    {
+      "text": "Events",
+      "url": "https://www.changiairport.com/en/rewards/members-events.html"
+    },
+    {
+      "text": "Changi Monarch",
+      "url": "https://www.changiairport.com/en/rewards/monarch.html"
+    },
+    {
+      "text": "Help",
+      "url": "https://www.changiairport.com/en/help.html"
+    },
+    {
+      "text": "App & Help",
+      "url": "https://www.changiairport.com/en/help.html"
+    },
+    {
+      "text": "Assistance",
+      "url": "https://www.changiairport.com/en/help/assistance.html"
+    },
+    {
+      "text": "Changi App",
+      "url": "https://www.changiairport.com/en/help/changi-app.html"
+    },
+    {
+      "text": "Contact Information",
+      "url": "https://www.changiairport.com/en/help/contact-us.html"
+    },
+    {
+      "text": "",
+      "url": "https://apps.apple.com/sg/app/ichangi/id391730848"
+    },
+    {
+      "text": "",
+      "url": "https://play.google.com/store/apps/details?id=com.changiairport.cagapp"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/changiairport"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/changiairport"
+    },
+    {
+      "text": "",
+      "url": "https://www.linkedin.com/company/changiairportgroup"
+    },
+    {
+      "text": "",
+      "url": "https://bit.ly/2xQwNT8"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@changiairport?lang=en"
+    },
+    {
+      "text": "",
+      "url": "https://x.com/changiairport"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/c/changiairport"
+    },
+    {
+      "text": "",
+      "url": "https://www.changiairport.com/en/help/wechat.html"
+    },
+    {
+      "text": "",
+      "url": "https://weibo.com/changiairport"
+    },
+    {
+      "text": "",
+      "url": "https://www.xiaohongshu.com/user/profile/5e15eed30000000001001063"
+    },
+    {
+      "text": "Sign Up",
+      "url": "https://www.changiairport.com/en/rewards/dashboard.html"
+    },
+    {
+      "text": "",
+      "url": "https://www.changiairport.com/en.html"
+    },
+    {
+      "text": "Airport",
+      "url": "https://www.changiairport.com/en.html"
+    },
+    {
+      "text": "Corporate",
+      "url": "https://www.changiairport.com/en/corporate.html"
+    },
+    {
+      "text": "Careers",
+      "url": "https://www.changiairport.com/en/careers.html"
+    },
+    {
+      "text": "CAI",
+      "url": "https://www.changiairport.com/en/cai.html"
+    },
+    {
+      "text": "Jewel",
+      "url": "https://www.jewelchangiairport.com/"
+    },
+    {
+      "text": "Now Boarding",
+      "url": "https://nowboarding.changiairport.com"
+    },
+    {
+      "text": "By-laws & Conditions of Use",
+      "url": "https://www.changiairport.com/en/by-laws-and-conditions-of-use.html"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.changiairport.com/en/privacy-policy.html"
+    },
+    {
+      "text": "Vulnerability Disclosure Policy",
+      "url": "https://www.changiairport.com/en/vulnerability-disclosure-policy.html"
+    }
+  ],
+  "extraction_summary": {
+    "section_count": 0,
+    "registration_subsection_count": 2,
+    "itinerary_count": 5,
+    "tab_count": 0,
+    "accordion_count": 0,
+    "table_count": 1,
+    "image_count": 21,
+    "link_count": 65
+  }
+}

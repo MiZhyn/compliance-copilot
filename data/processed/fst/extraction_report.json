@@ -1,0 +1,77 @@
+[
+  {
+    "id": "free_sg_tour",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\fst\\free_sg_tour.json",
+    "summary": {
+      "section_count": 19,
+      "registration_subsection_count": 0,
+      "itinerary_count": 0,
+      "tab_count": 0,
+      "accordion_count": 20,
+      "table_count": 1,
+      "image_count": 25,
+      "link_count": 85
+    }
+  },
+  {
+    "id": "sentosa_discovery_tour",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\fst\\sentosa_discovery_tour.json",
+    "summary": {
+      "section_count": 0,
+      "registration_subsection_count": 2,
+      "itinerary_count": 6,
+      "tab_count": 0,
+      "accordion_count": 0,
+      "table_count": 1,
+      "image_count": 22,
+      "link_count": 65
+    }
+  },
+  {
+    "id": "city_sights_tour",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\fst\\city_sights_tour.json",
+    "summary": {
+      "section_count": 0,
+      "registration_subsection_count": 2,
+      "itinerary_count": 5,
+      "tab_count": 0,
+      "accordion_count": 0,
+      "table_count": 1,
+      "image_count": 21,
+      "link_count": 65
+    }
+  },
+  {
+    "id": "singapore_river_and_marina_bay_sands",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\fst\\singapore_river_and_marina_bay_sands.json",
+    "summary": {
+      "section_count": 0,
+      "registration_subsection_count": 2,
+      "itinerary_count": 5,
+      "tab_count": 0,
+      "accordion_count": 0,
+      "table_count": 1,
+      "image_count": 21,
+      "link_count": 65
+    }
+  },
+  {
+    "id": "heritage_and_culture_tour",
+    "status": "success",
+    "output": "C:\\Users\\Michelle\\Desktop\\Github\\ai-demo\\data\\processed\\fst\\heritage_and_culture_tour.json",
+    "summary": {
+      "section_count": 0,
+      "registration_subsection_count": 2,
+      "itinerary_count": 5,
+      "tab_count": 0,
+      "accordion_count": 0,
+      "table_count": 1,
+      "image_count": 21,
+      "link_count": 65
+    }
+  }
+]

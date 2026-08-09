@@ -1,0 +1,55 @@
+{
+  "extractor_version": "2026-08-08-ica-structured-v2",
+  "id": "morocco",
+  "source": "ica",
+  "page_type": "visa_detail",
+  "country": "Morocco",
+  "title": "Morocco Visa Requirements",
+  "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/morocco",
+  "visa_requirement": {
+    "required": true,
+    "content": "You will need a visa to enter Singapore if you are holding a travel document issued by this country. However, please note that holders of diplomatic passports do not need a visa for entry."
+  },
+  "sections": [
+    {
+      "title": "Documents Required",
+      "content": "To apply for an entry visa for business or social visits, you will need the following documents:\n\n- Duly completed [Form 14A](https://www.ica.gov.sg/docs/default-source/ica/forms/form14a.pdf?sfvrsn=b201f1d9_39) (PDF, 202KB) signed by you. Your visa application shall be made based on the information declared in this form. ICA may request for the form to be submitted.\n\n- Your recent passport-sized colour photograph taken within the last three months. Please see [Photo Guidelines](https://www.ica.gov.sg/photo-guidelines) for information on photo requirements.\n\n- A photocopy of your passport biodata page (valid for at least six months from the date of your entry into Singapore)\n\n- A completed [Form V39A](https://www.ica.gov.sg/docs/default-source/ica/forms/formv39a.pdf?sfvrsn=68a9dede_39) (PDF, 192KB)(Letter of Introduction for Visa Application (LOI)), which may be issued by a local contact* in Singapore.\n\nAdditional supporting documents may be required on a case-by-case basis.\n\n*The local contact must be either a Singapore citizen (SC) or a Singapore permanent resident (PR) who is at least 21 years old with a Singpass account. If you are applying for an entry visa for business visit (attending business negotiations or discussions), the local contact must be acting on behalf of the Singapore-registered business entity. LOIs issued by your Embassy can also be accepted, if you are unable to secure an LOI from a local contact to support your visa application for social and business visits.",
+      "notes": [
+        "You will need to provide original documents and official translations (for documents in languages other than English), as well as copies of the documents for ICA to retain.\n\nICA accepts:\n\n- Translations provided by the embassy of the country/ place that issued the document\n\n- Translations produced by a notary public in Singapore or the country/ place that issued the document\n\n- Privately created translations attested by the embassy of the country/ place that issued the document, or notarised by a notary public in Singapore or the country/ place that issued the document.\n\nICA does not endorse any private translation companies or entities. Insufficient documentation may result in non-acceptance of your application. You may be required to provide additional documents to support your application."
+      ],
+      "actions": [
+        {
+          "text": "Apply Online",
+          "url": "https://www.ica.gov.sg/esvclandingpage/save"
+        }
+      ]
+    },
+    {
+      "title": "Procedure",
+      "content": "Applying in Singapore\n\nYour visa application can be submitted online using the [e-Service](https://www.ica.gov.sg/esvclandingpage/save) through a strategic partner or a local contact in Singapore.\n\nYou are advised to apply for an entry visa within 30 days prior to arrival in Singapore.\n\nApplying at a Singapore Overseas Mission\n\nYour visa application can be submitted at the nearest [Singapore Overseas Mission](https://www.mfa.gov.sg) or through its authorised visa agent.\n\nTo learn about the specific visa application procedure, you will need to visit the website of the Singapore Overseas Mission you plan to go to.\n\nYou are advised to apply for an entry visa within 30 days prior to arrival in Singapore.\n\n- User manuals (English) for Authorised Visa Agent/Strategic Partner\nClick [here](https://www.ica.gov.sg/docs/default-source/ica/files/save_usermanual_ta_ind_release.pdf?sfvrsn=dacd538c_24) for manual (PDF, 3.9MB) on submission of application for Individual Visa.\nClick [here](https://www.ica.gov.sg/docs/default-source/ica/files/save_usermanual_ta_grp_release.pdf?sfvrsn=e990286d_16) for manual (PDF, 4.6MB) on submission of application for Collective Gratis Visa.\nClick [here](https://www.ica.gov.sg/docs/default-source/ica/files/save-non-pub-ava_sp-user-guide-for-family-visa-application.pdf?sfvrsn=805989f1_26) for manual (PDF, 4.4MB) on submission of application for Family Visa.\n\n- User manuals (English) for Local Contact\nClick [here](https://www.ica.gov.sg/docs/default-source/ica/files/gc_usermanual_ip_save_singpass.pdf?sfvrsn=e05edc6a_28) for manual (PDF, 5MB) on submission of application for Individual Visa (for submission by individual user).\nClick [here](https://www.ica.gov.sg/docs/default-source/ica/files/gc_usermanual_ip_save_corppass.pdf?sfvrsn=abca7037_26) for manual (PDF, 3.8MB) on submission of application for Individual Visa (for submission by corporate/business user).\nClick [here](https://www.ica.gov.sg/docs/default-source/ica/files/save-pub-user-guide-for-family-visa-application.pdf?sfvrsn=fd719d5_25) for manual (PDF, 4.3MB) on submission of application for Family Visa.",
+      "notes": [],
+      "actions": []
+    },
+    {
+      "title": "Fees",
+      "content": "A S$30 non-refundable processing fee is payable online using a Visa or MasterCard credit/debit card.",
+      "notes": [],
+      "actions": []
+    },
+    {
+      "title": "Processing Time",
+      "content": "Your visa application will be processed within three working days (excluding the day of submission). Some applications may take longer to process.\n\nEach visa application will be considered on its own merits.",
+      "notes": [],
+      "actions": []
+    },
+    {
+      "title": "Collection",
+      "content": "If your application is approved, your local contact, strategic partner or authorised visa agent can use the [e-Service](https://www.ica.gov.sg/esvclandingpage/save) to print a copy of your e-Visa for you.",
+      "notes": [],
+      "actions": []
+    }
+  ],
+  "extraction_summary": {
+    "section_count": 5
+  }
+}

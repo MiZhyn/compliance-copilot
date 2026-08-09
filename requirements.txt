@@ -1,0 +1,14 @@
+pydantic
+python-dotenv
+python-docx
+pymupdf
+
+langchain
+langchain-core
+langchain-text-splitters
+langchain-chroma
+langchain-huggingface
+langchain-anthropic
+
+chromadb
+sentence-transformers

@@ -1,0 +1,161 @@
+{
+  "extractor_version": "2026-08-08-ica-structured-v2",
+  "id": "ica_visa_requirements",
+  "source": "ica",
+  "page_type": "visa_index",
+  "title": "Check if You Need an Entry Visa",
+  "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements",
+  "overview": "If you hold a travel document1 issued by one of the countries or places listed below, you will require a valid Singapore entry visa to travel to, and seek entry, into Singapore.\n\nPossession of a valid visa does not guarantee entry into Singapore. Please refer to [entry requirements](https://www.ica.gov.sg/enter-transit-depart/entering-singapore) for more information.\n\nPlease note the following:\n\n- SG Arrival Card is not a visa. Please refer to [SG Arrival Card e-Service](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card) for more\ninformation.\n\n- Valid visa holders are required to adhere to the [latest travel requirements and advisories](https://www.ica.gov.sg/enter-transit-depart/entering-singapore), where applicable.\n\n- The period of stay in Singapore is not tied to the validity of your visa. The period of stay is determined by the duration of the Visit Pass issued to you in the form of [electronic visit pass (e-Pass)](https://www.ica.gov.sg/enter-transit-depart/at-our-checkpoints/for-travellers/retrieval-of-electronic-visit-pass) at the checkpoint upon entry.\n\nTo extend the duration of stay, the applicant will have to apply for a Short-Term Visit Pass (STVP) extension. For more information, please refer to [Seeking Extension of Visit Pass](https://www.ica.gov.sg/enter-depart/extend_short_stay).\n\n1All travellers, regardless of age, must hold a valid individually-issued travel document as collective travel documents are not accepted.",
+  "sections": [
+    {
+      "title": "Visa Requirements",
+      "content": "A Singapore entry visa is not an immigration pass. It is a pre-entry permission for the holder of a valid visa to travel to, and seek entry, into Singapore.\n\nThe grant of an immigration pass will be determined by the ICA officers at the point of entry. The period of stay granted is not tied to the validity of your visa.\n\nICA does not accept submission of visa application over the immigration counters.\n\nIf you do not have a Local Contact with a Singpass/Corppass account, you may submit the visa application:\n\n- Through an authorised visa agent appointed by the Singapore Overseas Missions; or\n\n- At the nearest [Singapore Overseas Mission](https://www.ica.gov.sg/redirect-links/singapore-overseas-mission).\n\nPlease liaise directly with the nearest [Singapore Overseas Mission](https://www.ica.gov.sg/redirect-links/singapore-overseas-mission) for detailed visa application procedure if the application is to be submitted through their authorised visa agents or at the Singapore Overseas Mission.\n\nFrom 11 March 2022, all foreign visitors arriving in Singapore will be [notified digitally of their Visit Pass (e-Pass)](https://www.ica.gov.sg/public-education/roll-out-of-e-pass-to-all-checkpoints-and-launch-of-ica's-e-pass-enquiry-portal) through email. There will not be any endorsement on your passport. The e-Pass notification will indicate the period of stay granted and last day of stay allowed. Please ensure that you provide a valid email address when submitting the [SG Arrival Card](https://www.ica.gov.sg/eservicesandforms/sgarrivalcard)."
+    }
+  ],
+  "country_list": {
+    "title": "Travel Documents by Countries and Places",
+    "description": "If your travel document is issued by one of the countries/ places listed below, you will require a valid visa to enter Singapore. Click on individual countries/ places to find out more.\n\nYou will also need a visa if you are travelling on:\n\n- A Refugee travel document. This travel document is subject to assessment of recognition for entry into Singapore\n\n- An Alien's passport. This travel document is subject to assessment of recognition for entry into Singapore\n\n- A [Palestinian Authority passport](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/palestinian-authority-passport)\n\n- A [temporary passport issued by the United Arab Emirates](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/temporary-passport-issued-by-the-united-arab-emirates)\n\n- A [Document of Identity issued by Hong Kong Special Administrative Region](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/document-of-identity-issued-by-hong-kong-special-administrative-region)\n\n- A [Travel Permit issued by Macao Special Administrative Region](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/travel-permit-issued-by-macao-special-administrative-region)\n\n- A [PRC Travel Document](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/prc-travel-document)\n\nYou may [contact us via the enquiry form](https://www.ica.gov.sg/feedbackform/entry-visa) with a copy of your travel document biodata\npage and front cover for further assistance and verification.\n\nVisa Free Transit Facilities\n\nNationals of the Commonwealth of Independent States, Georgia, India, Turkmenistan and Ukraine; as well as selected* Nationals of the People’s Republic of China (PRC) who are not holding ordinary, diplomatic, public affairs or service PRC passports may be eligible for the Visa-Free Transit Facility (VFTF). Please refer to [Visa-Free Transit Facility](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa-free-transit-facility) for more information.\n\n*These include the PRC Travel Document, Hong Kong Special Administrative Region (SAR), Document of Identity (DOI) and Macau SAR Travel Permit.",
+    "countries": [
+      {
+        "name": "Afghanistan",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/afghanistan"
+      },
+      {
+        "name": "Algeria",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/algeria"
+      },
+      {
+        "name": "Armenia",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/armenia"
+      },
+      {
+        "name": "Azerbaijan",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/azerbaijan"
+      },
+      {
+        "name": "Bangladesh",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/bangladesh"
+      },
+      {
+        "name": "Belarus",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/belarus"
+      },
+      {
+        "name": "Democratic People's Republic of Korea",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/democratic-people's-republic-of-korea"
+      },
+      {
+        "name": "Egypt",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/egypt"
+      },
+      {
+        "name": "Georgia",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/georgia"
+      },
+      {
+        "name": "India",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/india"
+      },
+      {
+        "name": "Iran",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/iran"
+      },
+      {
+        "name": "Iraq",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/iraq"
+      },
+      {
+        "name": "Jordan",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/jordan"
+      },
+      {
+        "name": "Kazakhstan",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/kazakhstan"
+      },
+      {
+        "name": "Kosovo",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/kosovo"
+      },
+      {
+        "name": "Kyrgyzstan",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/kyrgyzstan"
+      },
+      {
+        "name": "Lebanon",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/lebanon"
+      },
+      {
+        "name": "Libya",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/libya"
+      },
+      {
+        "name": "Mali",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/mali"
+      },
+      {
+        "name": "Moldova",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/moldova"
+      },
+      {
+        "name": "Morocco",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/morocco"
+      },
+      {
+        "name": "Nigeria",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/nigeria"
+      },
+      {
+        "name": "Pakistan",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/pakistan"
+      },
+      {
+        "name": "Russia",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/russia"
+      },
+      {
+        "name": "Somalia",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/somalia"
+      },
+      {
+        "name": "South Sudan",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/south-sudan"
+      },
+      {
+        "name": "Sudan",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/sudan"
+      },
+      {
+        "name": "Syria",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/syria"
+      },
+      {
+        "name": "Tajikistan",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/tajikistan"
+      },
+      {
+        "name": "Tunisia",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/tunisia"
+      },
+      {
+        "name": "Turkmenistan",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/turkmenistan"
+      },
+      {
+        "name": "Ukraine",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/ukraine"
+      },
+      {
+        "name": "Uzbekistan",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/uzbekistan"
+      },
+      {
+        "name": "Yemen",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements/visa-detail-page/yemen"
+      }
+    ]
+  },
+  "extraction_summary": {
+    "section_count": 1,
+    "country_count": 34
+  }
+}

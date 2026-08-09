@@ -1,0 +1,950 @@
+{
+  "extractor_version": "2026-08-08-fst-structured-components-v7",
+  "id": "free_sg_tour",
+  "name": "Free Singapore Tour",
+  "page_type": "tour",
+  "url": "https://www.changiairport.com/en/experience/tours/free-singapore-tour.html",
+  "title": "Free Singapore Tour ™",
+  "sections": [
+    {
+      "heading": "1. Eligibility Requirements",
+      "heading_level": 3,
+      "heading_path": [
+        "1. Eligibility Requirements"
+      ],
+      "content": [
+        "You are a transit or transfer passenger at Changi Airport. Please note that you can only enter and exit Singapore once during your layover, in compliance with the regulations set by the [Immigration and Checkpoints Authority of Singapore](https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ica.gov.sg%2F&data=05%7C02%7Cwong.hiutung%40changiairport.com%7C71e87bb75106446df29908ddf9bb39f5%7C258c993422fa404884c8c52b473187ce%7C0%7C0%7C638941304908054406%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=k9XlCyfjx6LrMhntEMcsdLEgzWbAE%2Bd5QEDDi%2BkMfsM%3D&reserved=0). Passengers holding passports from certain countries (including India and Pakistan) will require a valid Singapore entry visa to travel to and seek entry into Singapore. You can find more information about entry visa requirements [here](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements).\n\nYour checked-in baggage should be through checked to your end destination.\n\nYour layover duration should be between 5.5 to 24 hours. Your flight schedule should meet the requirements of the tour timings (refer to Tour Schedules and Itineraries below).\n\nPlease take note of the reporting time (refer to Tour Schedules and Itineraries below), and ensure there is sufficient time upon plane disembarkation to reach the registration counter."
+      ],
+      "links": []
+    },
+    {
+      "heading": "2. How do I register?",
+      "heading_level": 3,
+      "heading_path": [
+        "2. How do I register?"
+      ],
+      "content": [
+        "You can pre-book one (1) tour itinerary up to fifty (50) days prior to your intended tour date.\n\nAlternatively, you can visit our tour booth(s) in the transit area upon arrival for assistance. Please note that seats are subject to availability, and there may be a balance of seats for walk-in passengers.\n\nUpon arrival at Changi Airport, please remain in the transit area and refrain from clearing Arrival immigration as the Free Singapore Tour booths are located within the transit area.\n\nThe Free Singapore Tour booths are located at:\n\nT2\n\nTRANSIT\n\nLevel2, Departure Transit Hall\n\n(Near Gate F50)\n\nOpening hours:\n\n8:00AM-7:00PM\n\nT3\n\nTRANSIT\n\nLevel2, Departure Transit Hall\n\n(Near Gate A1-A8)\n\nOpening hours:\n\n8:00AM-7:00PM"
+      ],
+      "links": []
+    },
+    {
+      "heading": "3. What do I need to join the tour?",
+      "heading_level": 3,
+      "heading_path": [
+        "3. What do I need to join the tour?"
+      ],
+      "content": [
+        "Passport, boarding passes, valid [entry visa](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements) (if required) and tour booking confirmation are required for registration. Eligibility to participate in the tour is subject to entry requirements stipulated by the [Immigration and Checkpoints Authority of Singapore](https://www.ica.gov.sg/).\n\nIf you have bulky or wheeled cabin baggage, alcohol, or duty-free items, you must deposit them at a [Baggage Storage counter](https://www.changiairport.com/en/at-changi/facilities-and-services-directory/baggage-storage.html) in the transit area before checking in for the tour. Please note that fees apply for this service.\n\nElectronic devices are not permitted to be stored. They must be hand-carried during the tour."
+      ],
+      "links": []
+    },
+    {
+      "heading": "4. Important Notes",
+      "heading_level": 3,
+      "heading_path": [
+        "4. Important Notes"
+      ],
+      "content": [
+        "Seats are allocated on a first-come, first-served basis.\n\nEach transit passenger is permitted to reserve only one tour during their layover.\n\nTour itineraries are subject to change, depending on weather and traffic conditions.\n\nItems such as Tobacco, cigarettes, vaporizers and e-cigarettes are not permitted on all tours, as the listed items are either banned or taxable upon entry into the Republic of Singapore."
+      ],
+      "links": []
+    },
+    {
+      "heading": "1. Are the tours available every day?",
+      "heading_level": 3,
+      "heading_path": [
+        "1. Are the tours available every day?"
+      ],
+      "content": [
+        "The tours are available daily, including weekends and public holidays."
+      ],
+      "links": []
+    },
+    {
+      "heading": "2. When are the Free Singapore Tour booths open?",
+      "heading_level": 3,
+      "heading_path": [
+        "2. When are the Free Singapore Tour booths open?"
+      ],
+      "content": [
+        "The Free Singapore Tour booths are open daily. The operating hours are\n\nT2\n\nTransit\n\nLevel2, Departure Transit Hall\n\n(Near Gate F50)\n\nOpening hours:\n\n8:00AM-7:00PM\n\nT3\n\nTRANSIT\n\nLevel2, Departure Transit Hall\n\n(Near Gate A1-A8)\n\nOpening hours:\n\n8:00AM-7:00PM\n\n<sly data-sly-test=\"false\">\n<img class=\"cmp-image__image\" src=\"/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png?wid=1200\" srcset=\"/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png?wid=300 300w, /content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png?wid=600 600w, /content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png?wid=900 900w, /content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png?wid=1200 1200w\" sizes=\"(max-width: 480px) 300px, (max-width: 768px) 600px, (max-width: 1200px) 900px, 1200px\" alt=\"map\"/>\n</sly>\n<sly data-sly-test=\"false\">\n<picture data-sly-test=\"/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png\">\n<source media=\"(min-width: 768px)\" srcset=\"/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png\" />\n<source srcset=\"/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png\" />\n<img class=\"cmp-image__image\" loading=\"lazy\" src=\"/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png\" alt=\"map\" title=\"\" />\n</picture>\n</sly>"
+      ],
+      "links": []
+    },
+    {
+      "heading": "3. What language is the Free Singapore Tour conducted in?",
+      "heading_level": 3,
+      "heading_path": [
+        "3. What language is the Free Singapore Tour conducted in?"
+      ],
+      "content": [
+        "All tours are conducted in English. Chinese audio devices are available upon request at the registration booth"
+      ],
+      "links": []
+    },
+    {
+      "heading": "4. I want to join the Free Singapore Tour but I do not have an entry visa into Singapore. Can I still join the Free Singapore Tour?",
+      "heading_level": 3,
+      "heading_path": [
+        "4. I want to join the Free Singapore Tour but I do not have an entry visa into Singapore. Can I still join the Free Singapore Tour?"
+      ],
+      "content": [
+        "Depending on the issuing country of the passport you are holding, passengers of eligible nationalities enjoy visa-free entry into Singapore. Please click [here](https://www.ica.gov.sg/enteranddeparting/before/entryvisa) to find out if you require a visa to enter Singapore. Possession of a valid visa does not guarantee entry into Singapore. Please refer to the [entry requirements](https://www.ica.gov.sg/enter-transit-depart/entering-singapore) for more information.\n\nVisa Free Transit Facility (VFTF)\n\nPassengers of eligible nationalities may also qualify for VFTF if prevailing entry requirements are met. Assessment for entry is determined by the Immigration and Checkpoints Authority (ICA) officers at the point of entry. For more information, please click [here](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa-free-transit-facility).\n\nPlease note that extension of stay is strictly prohibited for transit travellers under the VFTF."
+      ],
+      "links": []
+    },
+    {
+      "heading": "5. Do I need to fill in the Singapore Arrival Card?",
+      "heading_level": 3,
+      "heading_path": [
+        "5. Do I need to fill in the Singapore Arrival Card?"
+      ],
+      "content": [
+        "Yes, it is a requirement for clearing Arrival Immigration. For a seamless experience, you are strongly encouraged to complete the online [Singapore Arrival Card](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card) within three (3) days prior to the date of arrival in Singapore.\n\nFor more information, please visit: [https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card)"
+      ],
+      "links": []
+    },
+    {
+      "heading": "6. Can I pre-book the Free Singapore Tour?",
+      "heading_level": 3,
+      "heading_path": [
+        "6. Can I pre-book the Free Singapore Tour?"
+      ],
+      "content": [
+        "Yes, you can pre-book only one (1) tour itinerary up to fifty (50) days before your intended tour date. Before booking, please ensure that your layover coincides with the tour schedules. Once you're ready, select your preferred tour, date, and time, and follow the booking process.\n\nUpon arrival at Changi Airport, please make your way to the nearest Free Singapore Tour booth in the Transit Area at least 90 minutes before your scheduled tour timing."
+      ],
+      "links": []
+    },
+    {
+      "heading": "7. What are the terms and conditions of joining the Free Singapore Tour?",
+      "heading_level": 3,
+      "heading_path": [
+        "7. What are the terms and conditions of joining the Free Singapore Tour?"
+      ],
+      "content": [
+        "Please refer to the [Terms and Conditions](https://fst.changiairport.com/terms-and-conditions) of the Free Singapore Tour.\n\nAll Free Singapore Tour participants are required to sign an Indemnity Form when reporting at the Free Singapore Tour service counter before commencement of tour."
+      ],
+      "links": []
+    },
+    {
+      "heading": "8. I am only arriving after the Reporting Time. Can I still join the Free Singapore Tour?",
+      "heading_level": 3,
+      "heading_path": [
+        "8. I am only arriving after the Reporting Time. Can I still join the Free Singapore Tour?"
+      ],
+      "content": [
+        "To ensure a smooth experience for all tour participants, it is essential for transit passengers to arrive at the Free Singapore Tour booth at least 90 minutes prior to the scheduled tour start time for the check-in process and attendance confirmation."
+      ],
+      "links": []
+    },
+    {
+      "heading": "9. I am arriving in Singapore but not transiting. Can I join the Free Singapore Tour?",
+      "heading_level": 3,
+      "heading_path": [
+        "9. I am arriving in Singapore but not transiting. Can I join the Free Singapore Tour?"
+      ],
+      "content": [
+        "The Free Singapore Tour is exclusively available for transit and transfer passengers of Changi Airport only. If you are visiting Singapore, you are not eligible to participate in the tour."
+      ],
+      "links": []
+    },
+    {
+      "heading": "10. Can I join the Free Singapore Tour and remain in the city to explore on my own before returning to the airport for my connecting flight?",
+      "heading_level": 3,
+      "heading_path": [
+        "10. Can I join the Free Singapore Tour and remain in the city to explore on my own before returning to the airport for my connecting flight?"
+      ],
+      "content": [
+        "You are encouraged to complete the entire tour. If you decide to leave mid-way, you will need to arrange your own transport back to the airport at your own expense. Changi Airport is not responsible for any missed connecting flights.\n\nAt the end of the tour, you will be dropped off at Jewel Changi Airport/Terminal 1, Terminal 2 or Terminal 3.\n\nYou are responsible for your flight check-in and security procedures at the respective terminals."
+      ],
+      "links": []
+    },
+    {
+      "heading": "11. I require a wheelchair to get around. Can I join the Free Singapore Tour?",
+      "heading_level": 3,
+      "heading_path": [
+        "11. I require a wheelchair to get around. Can I join the Free Singapore Tour?"
+      ],
+      "content": [
+        "Unfortunately, the tours are not suitable for wheelchair and stroller users due to the tour route."
+      ],
+      "links": []
+    },
+    {
+      "heading": "12. Can I join more than one of the Free Singapore Tour itineraries?",
+      "heading_level": 3,
+      "heading_path": [
+        "12. Can I join more than one of the Free Singapore Tour itineraries?"
+      ],
+      "content": [
+        "You can only participate in one tour as transit passengers can only enter and exit Singapore once, in accordance with the guidelines provided by the Immigration and Checkpoints Authority of Singapore (ICA). More information on each of the tour itineraries are available on the Free Singapore Tour website."
+      ],
+      "links": []
+    },
+    {
+      "heading": "13. I am below 18 years old and travelling by myself. Can I join the Free Singapore Tour?",
+      "heading_level": 3,
+      "heading_path": [
+        "13. I am below 18 years old and travelling by myself. Can I join the Free Singapore Tour?"
+      ],
+      "content": [
+        "Passengers below 18 years old are unable to participate in the tour alone unless accompanied by an adult. All passengers have to sign an indemnity form prior to the tour, and signatories must be 18 years old and above."
+      ],
+      "links": []
+    },
+    {
+      "heading": "14. I am late in returning to the tour bus and missed the tour bus transport back to the airport, what do I do?",
+      "heading_level": 3,
+      "heading_path": [
+        "14. I am late in returning to the tour bus and missed the tour bus transport back to the airport, what do I do?"
+      ],
+      "content": [
+        "In the unlikely event that participants are separated from the tour group, they must arrange their own transportation to the airport at their own expense."
+      ],
+      "links": []
+    },
+    {
+      "heading": "15. I am unable to attend the tour. How do I cancel my booking?",
+      "heading_level": 3,
+      "heading_path": [
+        "15. I am unable to attend the tour. How do I cancel my booking?"
+      ],
+      "content": [
+        "You will receive a confirmation email once your tour is confirmed. The email includes a cancellation link under the “Cancellation Policy” section. Simply click the link and enter your unique PIN to cancel your booking.\n\nPlease note that if you do not cancel your booking and do not show up for the tour, this may impact your eligibility for future bookings."
+      ],
+      "links": []
+    }
+  ],
+  "registration_details": null,
+  "itineraries": [],
+  "tabs": [],
+  "accordions": [
+    {
+      "title": "1. Eligibility Requirements",
+      "heading_path": [
+        "1. Eligibility Requirements"
+      ],
+      "content": "You are a transit or transfer passenger at Changi Airport. Please note that you can only enter and exit Singapore once during your layover, in compliance with the regulations set by the [Immigration and Checkpoints Authority of Singapore](https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ica.gov.sg%2F&data=05%7C02%7Cwong.hiutung%40changiairport.com%7C71e87bb75106446df29908ddf9bb39f5%7C258c993422fa404884c8c52b473187ce%7C0%7C0%7C638941304908054406%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=k9XlCyfjx6LrMhntEMcsdLEgzWbAE%2Bd5QEDDi%2BkMfsM%3D&reserved=0). Passengers holding passports from certain countries (including India and Pakistan) will require a valid Singapore entry visa to travel to and seek entry into Singapore. You can find more information about entry visa requirements [here](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements).\n\nYour checked-in baggage should be through checked to your end destination.\n\nYour layover duration should be between 5.5 to 24 hours. Your flight schedule should meet the requirements of the tour timings (refer to Tour Schedules and Itineraries below).\n\nPlease take note of the reporting time (refer to Tour Schedules and Itineraries below), and ensure there is sufficient time upon plane disembarkation to reach the registration counter."
+    },
+    {
+      "title": "2. How do I register?",
+      "heading_path": [
+        "2. How do I register?"
+      ],
+      "content": "You can pre-book one (1) tour itinerary up to fifty (50) days prior to your intended tour date.\n\nAlternatively, you can visit our tour booth(s) in the transit area upon arrival for assistance. Please note that seats are subject to availability, and there may be a balance of seats for walk-in passengers.\n\nUpon arrival at Changi Airport, please remain in the transit area and refrain from clearing Arrival immigration as the Free Singapore Tour booths are located within the transit area.\n\nThe Free Singapore Tour booths are located at:\n\nT2\n\nTRANSIT\n\nLevel2, Departure Transit Hall\n\n(Near Gate F50)\n\nOpening hours:\n\n8:00AM-7:00PM\n\nT3\n\nTRANSIT\n\nLevel2, Departure Transit Hall\n\n(Near Gate A1-A8)\n\nOpening hours:\n\n8:00AM-7:00PM"
+    },
+    {
+      "title": "3. What do I need to join the tour?",
+      "heading_path": [
+        "3. What do I need to join the tour?"
+      ],
+      "content": "Passport, boarding passes, valid [entry visa](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements) (if required) and tour booking confirmation are required for registration. Eligibility to participate in the tour is subject to entry requirements stipulated by the [Immigration and Checkpoints Authority of Singapore](https://www.ica.gov.sg/).\n\nIf you have bulky or wheeled cabin baggage, alcohol, or duty-free items, you must deposit them at a [Baggage Storage counter](https://www.changiairport.com/en/at-changi/facilities-and-services-directory/baggage-storage.html) in the transit area before checking in for the tour. Please note that fees apply for this service.\n\nElectronic devices are not permitted to be stored. They must be hand-carried during the tour."
+    },
+    {
+      "title": "4. Important Notes",
+      "heading_path": [
+        "4. Important Notes"
+      ],
+      "content": "Seats are allocated on a first-come, first-served basis.\n\nEach transit passenger is permitted to reserve only one tour during their layover.\n\nTour itineraries are subject to change, depending on weather and traffic conditions.\n\nItems such as Tobacco, cigarettes, vaporizers and e-cigarettes are not permitted on all tours, as the listed items are either banned or taxable upon entry into the Republic of Singapore."
+    },
+    {
+      "title": "1. Are the tours available every day?",
+      "heading_path": [
+        "1. Are the tours available every day?"
+      ],
+      "content": "The tours are available daily, including weekends and public holidays."
+    },
+    {
+      "title": "2. When are the Free Singapore Tour booths open?",
+      "heading_path": [
+        "2. When are the Free Singapore Tour booths open?"
+      ],
+      "content": "The Free Singapore Tour booths are open daily. The operating hours are\n\nT2\n\nTransit\n\nLevel2, Departure Transit Hall\n\n(Near Gate F50)\n\nOpening hours:\n\n8:00AM-7:00PM\n\nT3\n\nTRANSIT\n\nLevel2, Departure Transit Hall\n\n(Near Gate A1-A8)\n\nOpening hours:\n\n8:00AM-7:00PM\n\n<sly data-sly-test=\"false\">\n<img class=\"cmp-image__image\" src=\"/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png?wid=1200\" srcset=\"/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png?wid=300 300w, /content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png?wid=600 600w, /content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png?wid=900 900w, /content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png?wid=1200 1200w\" sizes=\"(max-width: 480px) 300px, (max-width: 768px) 600px, (max-width: 1200px) 900px, 1200px\" alt=\"map\"/>\n</sly>\n<sly data-sly-test=\"false\">\n<picture data-sly-test=\"/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png\">\n<source media=\"(min-width: 768px)\" srcset=\"/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png\" />\n<source srcset=\"/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png\" />\n<img class=\"cmp-image__image\" loading=\"lazy\" src=\"/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png\" alt=\"map\" title=\"\" />\n</picture>\n</sly>"
+    },
+    {
+      "title": "3. What language is the Free Singapore Tour conducted in?",
+      "heading_path": [
+        "3. What language is the Free Singapore Tour conducted in?"
+      ],
+      "content": "All tours are conducted in English. Chinese audio devices are available upon request at the registration booth"
+    },
+    {
+      "title": "4. I want to join the Free Singapore Tour but I do not have an entry visa into Singapore. Can I still join the Free Singapore Tour?",
+      "heading_path": [
+        "4. I want to join the Free Singapore Tour but I do not have an entry visa into Singapore. Can I still join the Free Singapore Tour?"
+      ],
+      "content": "Depending on the issuing country of the passport you are holding, passengers of eligible nationalities enjoy visa-free entry into Singapore. Please click [here](https://www.ica.gov.sg/enteranddeparting/before/entryvisa) to find out if you require a visa to enter Singapore. Possession of a valid visa does not guarantee entry into Singapore. Please refer to the [entry requirements](https://www.ica.gov.sg/enter-transit-depart/entering-singapore) for more information.\n\nVisa Free Transit Facility (VFTF)\n\nPassengers of eligible nationalities may also qualify for VFTF if prevailing entry requirements are met. Assessment for entry is determined by the Immigration and Checkpoints Authority (ICA) officers at the point of entry. For more information, please click [here](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa-free-transit-facility).\n\nPlease note that extension of stay is strictly prohibited for transit travellers under the VFTF."
+    },
+    {
+      "title": "5. Do I need to fill in the Singapore Arrival Card?",
+      "heading_path": [
+        "5. Do I need to fill in the Singapore Arrival Card?"
+      ],
+      "content": "Yes, it is a requirement for clearing Arrival Immigration. For a seamless experience, you are strongly encouraged to complete the online [Singapore Arrival Card](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card) within three (3) days prior to the date of arrival in Singapore.\n\nFor more information, please visit: [https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card](https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card)"
+    },
+    {
+      "title": "6. Can I pre-book the Free Singapore Tour?",
+      "heading_path": [
+        "6. Can I pre-book the Free Singapore Tour?"
+      ],
+      "content": "Yes, you can pre-book only one (1) tour itinerary up to fifty (50) days before your intended tour date. Before booking, please ensure that your layover coincides with the tour schedules. Once you're ready, select your preferred tour, date, and time, and follow the booking process.\n\nUpon arrival at Changi Airport, please make your way to the nearest Free Singapore Tour booth in the Transit Area at least 90 minutes before your scheduled tour timing."
+    },
+    {
+      "title": "7. What are the terms and conditions of joining the Free Singapore Tour?",
+      "heading_path": [
+        "7. What are the terms and conditions of joining the Free Singapore Tour?"
+      ],
+      "content": "Please refer to the [Terms and Conditions](https://fst.changiairport.com/terms-and-conditions) of the Free Singapore Tour.\n\nAll Free Singapore Tour participants are required to sign an Indemnity Form when reporting at the Free Singapore Tour service counter before commencement of tour."
+    },
+    {
+      "title": "8. I am only arriving after the Reporting Time. Can I still join the Free Singapore Tour?",
+      "heading_path": [
+        "8. I am only arriving after the Reporting Time. Can I still join the Free Singapore Tour?"
+      ],
+      "content": "To ensure a smooth experience for all tour participants, it is essential for transit passengers to arrive at the Free Singapore Tour booth at least 90 minutes prior to the scheduled tour start time for the check-in process and attendance confirmation."
+    },
+    {
+      "title": "9. I am arriving in Singapore but not transiting. Can I join the Free Singapore Tour?",
+      "heading_path": [
+        "9. I am arriving in Singapore but not transiting. Can I join the Free Singapore Tour?"
+      ],
+      "content": "The Free Singapore Tour is exclusively available for transit and transfer passengers of Changi Airport only. If you are visiting Singapore, you are not eligible to participate in the tour."
+    },
+    {
+      "title": "10. Can I join the Free Singapore Tour and remain in the city to explore on my own before returning to the airport for my connecting flight?",
+      "heading_path": [
+        "10. Can I join the Free Singapore Tour and remain in the city to explore on my own before returning to the airport for my connecting flight?"
+      ],
+      "content": "You are encouraged to complete the entire tour. If you decide to leave mid-way, you will need to arrange your own transport back to the airport at your own expense. Changi Airport is not responsible for any missed connecting flights.\n\nAt the end of the tour, you will be dropped off at Jewel Changi Airport/Terminal 1, Terminal 2 or Terminal 3.\n\nYou are responsible for your flight check-in and security procedures at the respective terminals."
+    },
+    {
+      "title": "11. I require a wheelchair to get around. Can I join the Free Singapore Tour?",
+      "heading_path": [
+        "11. I require a wheelchair to get around. Can I join the Free Singapore Tour?"
+      ],
+      "content": "Unfortunately, the tours are not suitable for wheelchair and stroller users due to the tour route."
+    },
+    {
+      "title": "12. Can I join more than one of the Free Singapore Tour itineraries?",
+      "heading_path": [
+        "12. Can I join more than one of the Free Singapore Tour itineraries?"
+      ],
+      "content": "You can only participate in one tour as transit passengers can only enter and exit Singapore once, in accordance with the guidelines provided by the Immigration and Checkpoints Authority of Singapore (ICA). More information on each of the tour itineraries are available on the Free Singapore Tour website."
+    },
+    {
+      "title": "13. I am below 18 years old and travelling by myself. Can I join the Free Singapore Tour?",
+      "heading_path": [
+        "13. I am below 18 years old and travelling by myself. Can I join the Free Singapore Tour?"
+      ],
+      "content": "Passengers below 18 years old are unable to participate in the tour alone unless accompanied by an adult. All passengers have to sign an indemnity form prior to the tour, and signatories must be 18 years old and above."
+    },
+    {
+      "title": "14. I am late in returning to the tour bus and missed the tour bus transport back to the airport, what do I do?",
+      "heading_path": [
+        "14. I am late in returning to the tour bus and missed the tour bus transport back to the airport, what do I do?"
+      ],
+      "content": "In the unlikely event that participants are separated from the tour group, they must arrange their own transportation to the airport at their own expense."
+    },
+    {
+      "title": "15. I am unable to attend the tour. How do I cancel my booking?",
+      "heading_path": [
+        "15. I am unable to attend the tour. How do I cancel my booking?"
+      ],
+      "content": "You will receive a confirmation email once your tour is confirmed. The email includes a cancellation link under the “Cancellation Policy” section. Simply click the link and enter your unique PIN to cancel your booking.\n\nPlease note that if you do not cancel your booking and do not show up for the tour, this may impact your eligibility for future bookings."
+    },
+    {
+      "title": "16. I have a question not found on this list of FAQs. How can I reach out to the Free Singapore Tour team?",
+      "heading_path": [
+        "16. I have a question not found on this list of FAQs. How can I reach out to the Free Singapore Tour team?"
+      ],
+      "content": ""
+    }
+  ],
+  "tables": [
+    {
+      "caption": "Table 1",
+      "headers": [],
+      "rows": [
+        [
+          "Tour Timing",
+          "Tour Itinerary",
+          "Reporting Time (at Booth)",
+          "Required Flight Departure Time"
+        ],
+        [
+          "10:00 AM - 12:30 PM",
+          "Heritage and Culture Tour",
+          "Before 8:30 AM",
+          "After 2:30 PM"
+        ],
+        [
+          "12:00 PM - 2:30 PM",
+          "City Sights Tour",
+          "Before 10:30 AM",
+          "After 4:30 PM"
+        ],
+        [
+          "1:00 PM - 3:30 PM",
+          "Singapore River and Marina Bay Sands Tour",
+          "Before 11:30 AM",
+          "After 5:30 PM"
+        ],
+        [
+          "3:00 PM - 5:30 PM",
+          "Sentosa Discovery Tour",
+          "Before 1:30 PM",
+          "After 7:30 PM"
+        ],
+        [
+          "4:00 PM - 6:30 PM",
+          "Singapore River and Marina Bay Sands Tour",
+          "Before 2:30 PM",
+          "After 8:30 PM"
+        ],
+        [
+          "6:00 PM - 8:30 PM",
+          "City Sights Tour",
+          "Before 4:30 PM",
+          "After 10:30 PM"
+        ],
+        [
+          "7:00 PM - 9:30 PM",
+          "[NEW] Sentosa Discovery Tour",
+          "Before 5:30 PM",
+          "After 11:30 PM"
+        ]
+      ],
+      "notes": []
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.changiairport.com/etc.clientlibs/changiairport/clientlibs/clientlib-site/resources/images/plane-arrival-search.svg",
+      "alt": "",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/etc.clientlibs/changiairport/clientlibs/clientlib-site/resources/images/plane-departure-search.svg",
+      "alt": "",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/masthead_free_singapore_tour.jpg",
+      "alt": "leaving the airport",
+      "nearby_heading": "Free Singapore Tour ™",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/sentosa-gateway-night.jpg",
+      "alt": "",
+      "nearby_heading": "[NEW] Sentosa Discovery Tour",
+      "nearby_text": "Experience Singapore’s southern coast and discover how Sentosa transformed from a former British military base into a vibrant leisure destination.",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/citysights-contentblock1-gbtb.jpg",
+      "alt": "",
+      "nearby_heading": "City Sights Tour",
+      "nearby_text": "Experience the best of Singapore in this dynamic city tour! From awe-inspiring architectural wonders to lush green spaces, this tour offers a snapshot of what makes Singapore a world-class city.",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/singaporeriver-mbs/fst-mainpage-singaporeriver-mbs-tour.jpg",
+      "alt": "",
+      "nearby_heading": "Singapore River and Marina Bay Sands Tour",
+      "nearby_text": "Trace Singapore’s transformation from a historic trading port to a futuristic city as you explore the iconic Singapore River and Marina Bay Sands.",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/heritage-contentblock2-sultanmosque.jpg",
+      "alt": "",
+      "nearby_heading": "Heritage and Culture Tour",
+      "nearby_text": "Perfect for heritage and culture enthusiasts, this tour offers an immersive journey through Singapore’s storied past. Explore vibrant ethnic enclaves and discover a cultural diversity that defines this modern city.",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/map.png",
+      "alt": "map",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/FST-Logo-Logo-Stack-2025-Vertical-Color.png",
+      "alt": "",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/fst-good-morning-sg-tour.jpg",
+      "alt": "",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/fst-gardens-city-tour.jpg",
+      "alt": "",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/sg/airport/evergreen/experience/free-tours/free-singapore-tours/fst-city-river-cruise-tour.jpg",
+      "alt": "",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/AppStore.svg",
+      "alt": "first",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/GooglePlay.svg",
+      "alt": "scnd",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/facebook-app-symbol.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/instagram.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/linkedin.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/telegram.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/Icon-tiktok(resized).png",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/Icon-x(resized).png",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/youtube.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/wechat-logo.png",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/sina-weibo.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/footer/icon.svg",
+      "alt": "icon",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    },
+    {
+      "url": "https://www.changiairport.com/content/dam/changiairport/common/header/logo-light.png",
+      "alt": "logo",
+      "nearby_heading": "",
+      "nearby_text": "",
+      "links": []
+    }
+  ],
+  "links": [
+    {
+      "text": "Immigration and Checkpoints Authority of Singapore",
+      "url": "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ica.gov.sg%2F&data=05%7C02%7Cwong.hiutung%40changiairport.com%7C71e87bb75106446df29908ddf9bb39f5%7C258c993422fa404884c8c52b473187ce%7C0%7C0%7C638941304908054406%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=k9XlCyfjx6LrMhntEMcsdLEgzWbAE%2Bd5QEDDi%2BkMfsM%3D&reserved=0"
+    },
+    {
+      "text": "here",
+      "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements"
+    },
+    {
+      "text": "entry visa",
+      "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa_requirements"
+    },
+    {
+      "text": "Immigration and Checkpoints Authority of Singapore",
+      "url": "https://www.ica.gov.sg/"
+    },
+    {
+      "text": "Baggage Storage counter",
+      "url": "https://www.changiairport.com/en/at-changi/facilities-and-services-directory/baggage-storage.html"
+    },
+    {
+      "text": "[NEW] Sentosa Discovery Tour Experience Singapore’s southern coast and discover how Sentosa transformed from a former British military base into a vibrant leisure destination. Book Now",
+      "url": "https://www.changiairport.com/en/experience/tours/free-singapore-tour/sentosa-discovery-tour.html"
+    },
+    {
+      "text": "City Sights Tour Experience the best of Singapore in this dynamic city tour! From awe-inspiring architectural wonders to lush green spaces, this tour offers a snapshot of what makes Singapore a world-class city. Book Now",
+      "url": "https://www.changiairport.com/en/experience/tours/free-singapore-tour/city-sight-tour.html"
+    },
+    {
+      "text": "Singapore River and Marina Bay Sands Tour Trace Singapore’s transformation from a historic trading port to a futuristic city as you explore the iconic Singapore River and Marina Bay Sands. Book Now",
+      "url": "https://www.changiairport.com/en/experience/tours/free-singapore-tour/singapore-river-mbs.html"
+    },
+    {
+      "text": "Heritage and Culture Tour Perfect for heritage and culture enthusiasts, this tour offers an immersive journey through Singapore’s storied past. Explore vibrant ethnic enclaves and discover a cultural diversity that defines this modern city. Book Now",
+      "url": "https://www.changiairport.com/en/experience/tours/free-singapore-tour/heritage-and-culture-tour.html"
+    },
+    {
+      "text": "Book Now",
+      "url": "https://fst.changiairport.com/#/citysightstour?source=APP"
+    },
+    {
+      "text": "here",
+      "url": "https://www.ica.gov.sg/enteranddeparting/before/entryvisa"
+    },
+    {
+      "text": "entry requirements",
+      "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore"
+    },
+    {
+      "text": "here",
+      "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/visa-free-transit-facility"
+    },
+    {
+      "text": "Singapore Arrival Card",
+      "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card"
+    },
+    {
+      "text": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card",
+      "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/sg-arrival-card"
+    },
+    {
+      "text": "Terms and Conditions",
+      "url": "https://fst.changiairport.com/terms-and-conditions"
+    },
+    {
+      "text": "cag.fst@changiairport.com",
+      "url": "mailto:cag.fst@changiairport.com"
+    },
+    {
+      "text": "here",
+      "url": "https://transittours.changiairport.com/?utm_source=referral&utm_medium=CAG_FST&utm_campaign=FST_x_CX_catalogue&utm_term=changi_transit_tour&arrival-date=2026-06-18&lang=en"
+    },
+    {
+      "text": "Good Morning Singapore Tour Catch the stunning sunrise against Gardens by the Bay, Marina Waterfront and Merlion Park. End your tour with Singaporeans’ favourite traditional breakfast. Click here to book.",
+      "url": "https://transittours.changiairport.com/tour/cts-good-morning-sg-tour?lang=en&utm_source=referral&utm_medium=CAG_FST&utm_campaign=FST_x_CX_catalogue&utm_term=changi_transit_tour"
+    },
+    {
+      "text": "Gardens City Tour Discover the stunning beauty of Gardens by the Bay with access to Cloud Forest and Flower Dome, followed by a visit to the iconic Merlion Park. Perfect for nature lovers and photography enthusiasts. Click here to book.",
+      "url": "https://transittours.changiairport.com/tour/cts-gardens-city-tour?lang=en&utm_source=referral&utm_medium=CAG_FST&utm_campaign=FST_x_CX_catalogue&utm_term=changi_transit_tour"
+    },
+    {
+      "text": "City River Cruise Tour Glide along the historic Singapore River on a relaxing cruise and discover the city's rich cultural heritage in Chinatown and Clarke Quay. Click here to book.",
+      "url": "https://transittours.changiairport.com/tour/cts-city-river-cruise-tour?lang=en&utm_source=referral&utm_medium=CAG_FST&utm_campaign=FST_x_CX_catalogue&utm_term=changi_transit_tour"
+    },
+    {
+      "text": "Fly",
+      "url": "https://www.changiairport.com/en/fly.html"
+    },
+    {
+      "text": "Flight Information",
+      "url": "https://www.changiairport.com/en/fly/flight-information.html"
+    },
+    {
+      "text": "Airline Information",
+      "url": "https://www.changiairport.com/en/fly/airline-information.html"
+    },
+    {
+      "text": "Arrival Guide",
+      "url": "https://www.changiairport.com/en/fly/arrival-guide.html"
+    },
+    {
+      "text": "Departure Guide",
+      "url": "https://www.changiairport.com/en/fly/departure-guide.html"
+    },
+    {
+      "text": "Transiting Guide",
+      "url": "https://www.changiairport.com/en/fly/transit-guide.html"
+    },
+    {
+      "text": "Lounges",
+      "url": "https://www.changiairport.com/en/fly/lounges.html"
+    },
+    {
+      "text": "At Changi",
+      "url": "https://www.changiairport.com/en/at-changi.html"
+    },
+    {
+      "text": "Map",
+      "url": "https://www.changiairport.com/en/at-changi/map.html"
+    },
+    {
+      "text": "Terminal Guides",
+      "url": "https://www.changiairport.com/en/at-changi/terminal-guides.html"
+    },
+    {
+      "text": "Transport & Directions",
+      "url": "https://www.changiairport.com/en/at-changi/transport-and-directions.html"
+    },
+    {
+      "text": "Special Assistance",
+      "url": "https://www.changiairport.com/en/at-changi/special-assistance.html"
+    },
+    {
+      "text": "Facilities & Services",
+      "url": "https://www.changiairport.com/en/at-changi/facilities-and-services-directory.html"
+    },
+    {
+      "text": "Hotels",
+      "url": "https://www.changiairport.com/en/at-changi/facilities-and-services-directory.html?category=hotels"
+    },
+    {
+      "text": "Jewel Changi Airport",
+      "url": "https://www.jewelchangiairport.com/"
+    },
+    {
+      "text": "Plan Your Events",
+      "url": "https://www.changiairport.com/en/at-changi/plan-your-events.html"
+    },
+    {
+      "text": "Dine & Shop",
+      "url": "https://www.changiairport.com/en/dine-and-shop.html"
+    },
+    {
+      "text": "Dining",
+      "url": "https://www.changiairport.com/en/dine-and-shop/dining-directory.html"
+    },
+    {
+      "text": "Shopping",
+      "url": "https://www.changiairport.com/en/dine-and-shop/shop-directory.html"
+    },
+    {
+      "text": "Changi Pay",
+      "url": "https://www.changiairport.com/en/help/changi-app/changi-pay.html"
+    },
+    {
+      "text": "Rewards",
+      "url": "https://www.changiairport.com/en/rewards.html"
+    },
+    {
+      "text": "Shopping Concierge",
+      "url": "https://www.changiairport.com/en/dine-and-shop/shopping-concierge.html"
+    },
+    {
+      "text": "Shop Online",
+      "url": "https://www.ishopchangi.com/en/home?utm_source=changiairport.com&utm_medium=dineandshop&utm_campaign=ao&utm_term=dineandshopfooter&utm_content=shoponlineanchortext&cmode=tr"
+    },
+    {
+      "text": "Experience",
+      "url": "https://www.changiairport.com/en/experience.html"
+    },
+    {
+      "text": "Attractions",
+      "url": "https://www.changiairport.com/en/experience/attractions-directory.html"
+    },
+    {
+      "text": "Experiences for Kids",
+      "url": "https://www.changiairport.com/en/experience/kids.html"
+    },
+    {
+      "text": "Free Tours",
+      "url": "https://www.changiairport.com/en/experience/tours.html"
+    },
+    {
+      "text": "Happenings",
+      "url": "https://www.changiairport.com/en/happenings.html"
+    },
+    {
+      "text": "Events",
+      "url": "https://www.changiairport.com/en/happenings/events-directory.html"
+    },
+    {
+      "text": "Promotions",
+      "url": "https://www.changiairport.com/en/happenings/promotions.html"
+    },
+    {
+      "text": "Changi Rewards",
+      "url": "https://www.changiairport.com/en/rewards.html"
+    },
+    {
+      "text": "Benefits & Privileges",
+      "url": "https://www.changiairport.com/en/rewards/benefits-and-privileges.html"
+    },
+    {
+      "text": "Changi Rewards Catalogue",
+      "url": "https://www.changiairport.com/en/rewards/catalogue.html"
+    },
+    {
+      "text": "Specials",
+      "url": "https://www.changiairport.com/en/rewards/members-special.html"
+    },
+    {
+      "text": "Events",
+      "url": "https://www.changiairport.com/en/rewards/members-events.html"
+    },
+    {
+      "text": "Changi Monarch",
+      "url": "https://www.changiairport.com/en/rewards/monarch.html"
+    },
+    {
+      "text": "Help",
+      "url": "https://www.changiairport.com/en/help.html"
+    },
+    {
+      "text": "App & Help",
+      "url": "https://www.changiairport.com/en/help.html"
+    },
+    {
+      "text": "Assistance",
+      "url": "https://www.changiairport.com/en/help/assistance.html"
+    },
+    {
+      "text": "Changi App",
+      "url": "https://www.changiairport.com/en/help/changi-app.html"
+    },
+    {
+      "text": "Contact Information",
+      "url": "https://www.changiairport.com/en/help/contact-us.html"
+    },
+    {
+      "text": "",
+      "url": "https://apps.apple.com/sg/app/ichangi/id391730848"
+    },
+    {
+      "text": "",
+      "url": "https://play.google.com/store/apps/details?id=com.changiairport.cagapp"
+    },
+    {
+      "text": "",
+      "url": "https://www.facebook.com/changiairport"
+    },
+    {
+      "text": "",
+      "url": "https://www.instagram.com/changiairport"
+    },
+    {
+      "text": "",
+      "url": "https://www.linkedin.com/company/changiairportgroup"
+    },
+    {
+      "text": "",
+      "url": "https://bit.ly/2xQwNT8"
+    },
+    {
+      "text": "",
+      "url": "https://www.tiktok.com/@changiairport?lang=en"
+    },
+    {
+      "text": "",
+      "url": "https://x.com/changiairport"
+    },
+    {
+      "text": "",
+      "url": "https://www.youtube.com/c/changiairport"
+    },
+    {
+      "text": "",
+      "url": "https://www.changiairport.com/en/help/wechat.html"
+    },
+    {
+      "text": "",
+      "url": "https://weibo.com/changiairport"
+    },
+    {
+      "text": "",
+      "url": "https://www.xiaohongshu.com/user/profile/5e15eed30000000001001063"
+    },
+    {
+      "text": "Sign Up",
+      "url": "https://www.changiairport.com/en/rewards/dashboard.html"
+    },
+    {
+      "text": "",
+      "url": "https://www.changiairport.com/en.html"
+    },
+    {
+      "text": "Airport",
+      "url": "https://www.changiairport.com/en.html"
+    },
+    {
+      "text": "Corporate",
+      "url": "https://www.changiairport.com/en/corporate.html"
+    },
+    {
+      "text": "Careers",
+      "url": "https://www.changiairport.com/en/careers.html"
+    },
+    {
+      "text": "CAI",
+      "url": "https://www.changiairport.com/en/cai.html"
+    },
+    {
+      "text": "Jewel",
+      "url": "https://www.jewelchangiairport.com/"
+    },
+    {
+      "text": "Now Boarding",
+      "url": "https://nowboarding.changiairport.com"
+    },
+    {
+      "text": "By-laws & Conditions of Use",
+      "url": "https://www.changiairport.com/en/by-laws-and-conditions-of-use.html"
+    },
+    {
+      "text": "Privacy Policy",
+      "url": "https://www.changiairport.com/en/privacy-policy.html"
+    },
+    {
+      "text": "Vulnerability Disclosure Policy",
+      "url": "https://www.changiairport.com/en/vulnerability-disclosure-policy.html"
+    }
+  ],
+  "extraction_summary": {
+    "section_count": 19,
+    "registration_subsection_count": 0,
+    "itinerary_count": 0,
+    "tab_count": 0,
+    "accordion_count": 20,
+    "table_count": 1,
+    "image_count": 25,
+    "link_count": 85
+  }
+}

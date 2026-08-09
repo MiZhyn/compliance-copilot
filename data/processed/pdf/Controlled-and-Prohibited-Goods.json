@@ -1,0 +1,2338 @@
+{
+  "source_file": "Controlled-and-Prohibited-Goods.pdf",
+  "source_type": "pdf",
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1225.0,
+      "height": 3227.0,
+      "line_count": 109,
+      "lines": [
+        {
+          "text": "Controlled and",
+          "block_no": 78,
+          "line_no": 0,
+          "bbox": [
+            66.0,
+            40.91,
+            570.91,
+            127.11
+          ],
+          "bbox_normalized": [
+            0.0539,
+            0.0127,
+            0.4661,
+            0.0394
+          ],
+          "links": []
+        },
+        {
+          "text": "Prohibited Goods",
+          "block_no": 78,
+          "line_no": 1,
+          "bbox": [
+            66.0,
+            120.91,
+            659.57,
+            207.11
+          ],
+          "bbox_normalized": [
+            0.0539,
+            0.0375,
+            0.5384,
+            0.0642
+          ],
+          "links": []
+        },
+        {
+          "text": "Take note of these goods before",
+          "block_no": 79,
+          "line_no": 0,
+          "bbox": [
+            70.0,
+            208.44,
+            623.69,
+            252.77
+          ],
+          "bbox_normalized": [
+            0.0571,
+            0.0646,
+            0.5091,
+            0.0783
+          ],
+          "links": []
+        },
+        {
+          "text": "importing",
+          "block_no": 79,
+          "line_no": 1,
+          "bbox": [
+            70.0,
+            252.44,
+            232.4,
+            296.77
+          ],
+          "bbox_normalized": [
+            0.0571,
+            0.0782,
+            0.1897,
+            0.092
+          ],
+          "links": []
+        },
+        {
+          "text": "01.",
+          "block_no": 19,
+          "line_no": 0,
+          "bbox": [
+            66.0,
+            383.91,
+            166.44,
+            470.11
+          ],
+          "bbox_normalized": [
+            0.0539,
+            0.119,
+            0.1359,
+            0.1457
+          ],
+          "links": []
+        },
+        {
+          "text": "Identify Your Goods",
+          "block_no": 26,
+          "line_no": 0,
+          "bbox": [
+            199.0,
+            414.5,
+            508.41,
+            453.91
+          ],
+          "bbox_normalized": [
+            0.1624,
+            0.1284,
+            0.415,
+            0.1407
+          ],
+          "links": []
+        },
+        {
+          "text": "Controlled Goods",
+          "block_no": 37,
+          "line_no": 0,
+          "bbox": [
+            905.84,
+            465.5,
+            1179.94,
+            504.91
+          ],
+          "bbox_normalized": [
+            0.7395,
+            0.1443,
+            0.9632,
+            0.1565
+          ],
+          "links": []
+        },
+        {
+          "text": "02.",
+          "block_no": 23,
+          "line_no": 0,
+          "bbox": [
+            702.0,
+            472.91,
+            814.98,
+            559.11
+          ],
+          "bbox_normalized": [
+            0.5731,
+            0.1465,
+            0.6653,
+            0.1733
+          ],
+          "links": []
+        },
+        {
+          "text": "Allowed to Import with",
+          "block_no": 38,
+          "line_no": 0,
+          "bbox": [
+            924.44,
+            506.0,
+            1179.78,
+            535.18
+          ],
+          "bbox_normalized": [
+            0.7546,
+            0.1568,
+            0.9631,
+            0.1658
+          ],
+          "links": []
+        },
+        {
+          "text": "Approval",
+          "block_no": 39,
+          "line_no": 0,
+          "bbox": [
+            1079.97,
+            538.0,
+            1179.93,
+            567.18
+          ],
+          "bbox_normalized": [
+            0.8816,
+            0.1667,
+            0.9632,
+            0.1758
+          ],
+          "links": []
+        },
+        {
+          "text": "Before importing, identify:",
+          "block_no": 39,
+          "line_no": 1,
+          "bbox": [
+            66.0,
+            546.72,
+            293.52,
+            568.89
+          ],
+          "bbox_normalized": [
+            0.0539,
+            0.1694,
+            0.2396,
+            0.1763
+          ],
+          "links": []
+        },
+        {
+          "text": "What the goods are",
+          "block_no": 40,
+          "line_no": 0,
+          "bbox": [
+            120.0,
+            578.72,
+            291.75,
+            600.89
+          ],
+          "bbox_normalized": [
+            0.098,
+            0.1793,
+            0.2382,
+            0.1862
+          ],
+          "links": []
+        },
+        {
+          "text": "How they are used",
+          "block_no": 41,
+          "line_no": 0,
+          "bbox": [
+            120.0,
+            610.72,
+            283.64,
+            632.89
+          ],
+          "bbox_normalized": [
+            0.098,
+            0.1893,
+            0.2315,
+            0.1961
+          ],
+          "links": []
+        },
+        {
+          "text": "Where they come from",
+          "block_no": 42,
+          "line_no": 0,
+          "bbox": [
+            120.0,
+            642.72,
+            318.77,
+            664.89
+          ],
+          "bbox_normalized": [
+            0.098,
+            0.1992,
+            0.2602,
+            0.206
+          ],
+          "links": []
+        },
+        {
+          "text": "Controlled goods are allowed, but only with approval",
+          "block_no": 52,
+          "line_no": 0,
+          "bbox": [
+            723.16,
+            648.72,
+            1182.54,
+            670.89
+          ],
+          "bbox_normalized": [
+            0.5903,
+            0.201,
+            0.9653,
+            0.2079
+          ],
+          "links": []
+        },
+        {
+          "text": "Who they are for",
+          "block_no": 43,
+          "line_no": 0,
+          "bbox": [
+            120.0,
+            674.72,
+            265.52,
+            696.89
+          ],
+          "bbox_normalized": [
+            0.098,
+            0.2091,
+            0.2167,
+            0.216
+          ],
+          "links": []
+        },
+        {
+          "text": "from the relevant Competent Authority (CA).",
+          "block_no": 53,
+          "line_no": 0,
+          "bbox": [
+            795.36,
+            680.72,
+            1182.99,
+            702.89
+          ],
+          "bbox_normalized": [
+            0.6493,
+            0.2109,
+            0.9657,
+            0.2178
+          ],
+          "links": []
+        },
+        {
+          "text": "If unsure whether your good is controlled or prohibited,",
+          "block_no": 44,
+          "line_no": 0,
+          "bbox": [
+            66.0,
+            738.72,
+            548.23,
+            760.89
+          ],
+          "bbox_normalized": [
+            0.0539,
+            0.2289,
+            0.4475,
+            0.2358
+          ],
+          "links": []
+        },
+        {
+          "text": "Common examples include:",
+          "block_no": 63,
+          "line_no": 0,
+          "bbox": [
+            815.84,
+            757.72,
+            1055.15,
+            779.89
+          ],
+          "bbox_normalized": [
+            0.666,
+            0.2348,
+            0.8613,
+            0.2417
+          ],
+          "links": []
+        },
+        {
+          "text": "always check before importing them.",
+          "block_no": 45,
+          "line_no": 0,
+          "bbox": [
+            66.0,
+            770.72,
+            388.8,
+            792.89
+          ],
+          "bbox_normalized": [
+            0.0539,
+            0.2388,
+            0.3174,
+            0.2457
+          ],
+          "links": []
+        },
+        {
+          "text": "Check if your goods are controlled or prohibited →",
+          "block_no": 76,
+          "line_no": 0,
+          "bbox": [
+            69.0,
+            826.72,
+            509.95,
+            848.89
+          ],
+          "bbox_normalized": [
+            0.0563,
+            0.2562,
+            0.4163,
+            0.2631
+          ],
+          "links": [
+            "https://www.customs.gov.sg/doing-business/import-operations/import-procedures/controlled-and-prohibited-goods-for-imports/"
+          ]
+        },
+        {
+          "text": "Medicines and",
+          "block_no": 12,
+          "line_no": 0,
+          "bbox": [
+            716.08,
+            912.72,
+            842.57,
+            934.89
+          ],
+          "bbox_normalized": [
+            0.5846,
+            0.2828,
+            0.6878,
+            0.2897
+          ],
+          "links": []
+        },
+        {
+          "text": "Food items",
+          "block_no": 13,
+          "line_no": 0,
+          "bbox": [
+            898.48,
+            912.72,
+            994.44,
+            934.89
+          ],
+          "bbox_normalized": [
+            0.7335,
+            0.2828,
+            0.8118,
+            0.2897
+          ],
+          "links": []
+        },
+        {
+          "text": "Plants and",
+          "block_no": 13,
+          "line_no": 1,
+          "bbox": [
+            1066.72,
+            913.72,
+            1157.91,
+            935.89
+          ],
+          "bbox_normalized": [
+            0.8708,
+            0.2831,
+            0.9452,
+            0.29
+          ],
+          "links": []
+        },
+        {
+          "text": "health products",
+          "block_no": 12,
+          "line_no": 1,
+          "bbox": [
+            710.98,
+            936.72,
+            847.87,
+            958.89
+          ],
+          "bbox_normalized": [
+            0.5804,
+            0.2903,
+            0.6921,
+            0.2971
+          ],
+          "links": []
+        },
+        {
+          "text": "animals",
+          "block_no": 14,
+          "line_no": 0,
+          "bbox": [
+            1079.55,
+            937.72,
+            1145.39,
+            959.89
+          ],
+          "bbox_normalized": [
+            0.8813,
+            0.2906,
+            0.935,
+            0.2975
+          ],
+          "links": []
+        },
+        {
+          "text": "03.",
+          "block_no": 20,
+          "line_no": 0,
+          "bbox": [
+            60.0,
+            963.91,
+            173.63,
+            1050.11
+          ],
+          "bbox_normalized": [
+            0.049,
+            0.2987,
+            0.1417,
+            0.3254
+          ],
+          "links": []
+        },
+        {
+          "text": "Prohibited Goods",
+          "block_no": 27,
+          "line_no": 0,
+          "bbox": [
+            247.59,
+            978.5,
+            518.98,
+            1017.91
+          ],
+          "bbox_normalized": [
+            0.2021,
+            0.3032,
+            0.4237,
+            0.3154
+          ],
+          "links": []
+        },
+        {
+          "text": "Not Allowed to Import",
+          "block_no": 28,
+          "line_no": 0,
+          "bbox": [
+            270.7,
+            1019.0,
+            518.79,
+            1048.18
+          ],
+          "bbox_normalized": [
+            0.221,
+            0.3158,
+            0.4235,
+            0.3248
+          ],
+          "links": []
+        },
+        {
+          "text": "Drones",
+          "block_no": 15,
+          "line_no": 0,
+          "bbox": [
+            744.63,
+            1065.72,
+            806.32,
+            1087.89
+          ],
+          "bbox_normalized": [
+            0.6079,
+            0.3303,
+            0.6582,
+            0.3371
+          ],
+          "links": []
+        },
+        {
+          "text": "Telecommunications",
+          "block_no": 15,
+          "line_no": 1,
+          "bbox": [
+            857.06,
+            1066.72,
+            1035.56,
+            1088.89
+          ],
+          "bbox_normalized": [
+            0.6996,
+            0.3306,
+            0.8454,
+            0.3374
+          ],
+          "links": []
+        },
+        {
+          "text": "Weapons and",
+          "block_no": 17,
+          "line_no": 0,
+          "bbox": [
+            1050.45,
+            1066.72,
+            1168.18,
+            1088.89
+          ],
+          "bbox_normalized": [
+            0.8575,
+            0.3306,
+            0.9536,
+            0.3374
+          ],
+          "links": []
+        },
+        {
+          "text": "equipment",
+          "block_no": 16,
+          "line_no": 0,
+          "bbox": [
+            900.33,
+            1090.72,
+            992.6,
+            1112.89
+          ],
+          "bbox_normalized": [
+            0.735,
+            0.338,
+            0.8103,
+            0.3449
+          ],
+          "links": []
+        },
+        {
+          "text": "replicas",
+          "block_no": 18,
+          "line_no": 0,
+          "bbox": [
+            1075.63,
+            1090.72,
+            1143.32,
+            1112.89
+          ],
+          "bbox_normalized": [
+            0.8781,
+            0.338,
+            0.9333,
+            0.3449
+          ],
+          "links": []
+        },
+        {
+          "text": "Common examples include:",
+          "block_no": 46,
+          "line_no": 0,
+          "bbox": [
+            198.34,
+            1141.72,
+            437.65,
+            1163.89
+          ],
+          "bbox_normalized": [
+            0.1619,
+            0.3538,
+            0.3573,
+            0.3607
+          ],
+          "links": []
+        },
+        {
+          "text": "Approval must be obtained before import.",
+          "block_no": 66,
+          "line_no": 0,
+          "bbox": [
+            750.03,
+            1163.72,
+            1116.51,
+            1185.89
+          ],
+          "bbox_normalized": [
+            0.6123,
+            0.3606,
+            0.9114,
+            0.3675
+          ],
+          "links": []
+        },
+        {
+          "text": "United Nations",
+          "block_no": 33,
+          "line_no": 0,
+          "bbox": [
+            942.16,
+            1302.5,
+            1173.75,
+            1341.91
+          ],
+          "bbox_normalized": [
+            0.7691,
+            0.4036,
+            0.9582,
+            0.4158
+          ],
+          "links": []
+        },
+        {
+          "text": "Counterfeit",
+          "block_no": 81,
+          "line_no": 2,
+          "bbox": [
+            96.92,
+            1316.72,
+            195.74,
+            1338.89
+          ],
+          "bbox_normalized": [
+            0.0791,
+            0.408,
+            0.1598,
+            0.4149
+          ],
+          "links": []
+        },
+        {
+          "text": "Obscene",
+          "block_no": 81,
+          "line_no": 0,
+          "bbox": [
+            270.71,
+            1316.72,
+            348.0,
+            1338.89
+          ],
+          "bbox_normalized": [
+            0.221,
+            0.408,
+            0.2841,
+            0.4149
+          ],
+          "links": []
+        },
+        {
+          "text": "Certain weapons",
+          "block_no": 86,
+          "line_no": 0,
+          "bbox": [
+            402.13,
+            1316.72,
+            549.5,
+            1338.89
+          ],
+          "bbox_normalized": [
+            0.3283,
+            0.408,
+            0.4486,
+            0.4149
+          ],
+          "links": []
+        },
+        {
+          "text": "04.",
+          "block_no": 24,
+          "line_no": 0,
+          "bbox": [
+            702.0,
+            1318.91,
+            817.37,
+            1405.11
+          ],
+          "bbox_normalized": [
+            0.5731,
+            0.4087,
+            0.6672,
+            0.4354
+          ],
+          "links": []
+        },
+        {
+          "text": "goods",
+          "block_no": 82,
+          "line_no": 0,
+          "bbox": [
+            119.48,
+            1340.72,
+            173.47,
+            1362.89
+          ],
+          "bbox_normalized": [
+            0.0975,
+            0.4155,
+            0.1416,
+            0.4223
+          ],
+          "links": []
+        },
+        {
+          "text": "publications",
+          "block_no": 81,
+          "line_no": 1,
+          "bbox": [
+            256.71,
+            1340.72,
+            362.19,
+            1362.89
+          ],
+          "bbox_normalized": [
+            0.2096,
+            0.4155,
+            0.2957,
+            0.4223
+          ],
+          "links": []
+        },
+        {
+          "text": "and explosives",
+          "block_no": 87,
+          "line_no": 0,
+          "bbox": [
+            411.35,
+            1340.72,
+            540.58,
+            1362.89
+          ],
+          "bbox_normalized": [
+            0.3358,
+            0.4155,
+            0.4413,
+            0.4223
+          ],
+          "links": []
+        },
+        {
+          "text": "Security Council",
+          "block_no": 33,
+          "line_no": 1,
+          "bbox": [
+            915.09,
+            1342.5,
+            1173.73,
+            1381.91
+          ],
+          "bbox_normalized": [
+            0.747,
+            0.416,
+            0.9581,
+            0.4282
+          ],
+          "links": []
+        },
+        {
+          "text": "Sanctions",
+          "block_no": 34,
+          "line_no": 0,
+          "bbox": [
+            1017.12,
+            1382.5,
+            1173.87,
+            1421.91
+          ],
+          "bbox_normalized": [
+            0.8303,
+            0.4284,
+            0.9583,
+            0.4406
+          ],
+          "links": []
+        },
+        {
+          "text": "Some goods, persons, or countries are subject to",
+          "block_no": 54,
+          "line_no": 0,
+          "bbox": [
+            694.0,
+            1485.72,
+            1124.04,
+            1507.89
+          ],
+          "bbox_normalized": [
+            0.5665,
+            0.4604,
+            0.9176,
+            0.4673
+          ],
+          "links": []
+        },
+        {
+          "text": "Endangered",
+          "block_no": 83,
+          "line_no": 0,
+          "bbox": [
+            159.93,
+            1489.72,
+            264.74,
+            1511.89
+          ],
+          "bbox_normalized": [
+            0.1306,
+            0.4616,
+            0.2161,
+            0.4685
+          ],
+          "links": []
+        },
+        {
+          "text": "Items banned under",
+          "block_no": 84,
+          "line_no": 0,
+          "bbox": [
+            318.14,
+            1489.72,
+            492.47,
+            1511.89
+          ],
+          "bbox_normalized": [
+            0.2597,
+            0.4616,
+            0.402,
+            0.4685
+          ],
+          "links": []
+        },
+        {
+          "text": "wildlife products",
+          "block_no": 83,
+          "line_no": 1,
+          "bbox": [
+            140.46,
+            1513.72,
+            284.4,
+            1535.89
+          ],
+          "bbox_normalized": [
+            0.1147,
+            0.4691,
+            0.2322,
+            0.4759
+          ],
+          "links": []
+        },
+        {
+          "text": "Singapore Law",
+          "block_no": 85,
+          "line_no": 0,
+          "bbox": [
+            341.04,
+            1513.72,
+            469.94,
+            1535.89
+          ],
+          "bbox_normalized": [
+            0.2784,
+            0.4691,
+            0.3836,
+            0.4759
+          ],
+          "links": []
+        },
+        {
+          "text": "United Nations Security Council (UNSC) Sanctions.",
+          "block_no": 55,
+          "line_no": 0,
+          "bbox": [
+            694.0,
+            1517.72,
+            1139.29,
+            1539.89
+          ],
+          "bbox_normalized": [
+            0.5665,
+            0.4703,
+            0.93,
+            0.4772
+          ],
+          "links": []
+        },
+        {
+          "text": "These restrictions may apply even if goods are",
+          "block_no": 56,
+          "line_no": 0,
+          "bbox": [
+            694.0,
+            1581.72,
+            1101.67,
+            1603.89
+          ],
+          "bbox_normalized": [
+            0.5665,
+            0.4902,
+            0.8993,
+            0.497
+          ],
+          "links": []
+        },
+        {
+          "text": "Do not import prohibited goods.",
+          "block_no": 80,
+          "line_no": 0,
+          "bbox": [
+            176.03,
+            1588.72,
+            455.67,
+            1610.89
+          ],
+          "bbox_normalized": [
+            0.1437,
+            0.4923,
+            0.372,
+            0.4992
+          ],
+          "links": []
+        },
+        {
+          "text": "otherwise allowed.",
+          "block_no": 57,
+          "line_no": 0,
+          "bbox": [
+            694.0,
+            1613.72,
+            857.54,
+            1635.89
+          ],
+          "bbox_normalized": [
+            0.5665,
+            0.5001,
+            0.7,
+            0.5069
+          ],
+          "links": []
+        },
+        {
+          "text": "Sanctions may cover:",
+          "block_no": 58,
+          "line_no": 0,
+          "bbox": [
+            694.0,
+            1677.72,
+            880.25,
+            1699.89
+          ],
+          "bbox_normalized": [
+            0.5665,
+            0.5199,
+            0.7186,
+            0.5268
+          ],
+          "links": []
+        },
+        {
+          "text": "• Specific goods",
+          "block_no": 59,
+          "line_no": 0,
+          "bbox": [
+            699.31,
+            1709.72,
+            844.4,
+            1731.89
+          ],
+          "bbox_normalized": [
+            0.5709,
+            0.5298,
+            0.6893,
+            0.5367
+          ],
+          "links": []
+        },
+        {
+          "text": "05.",
+          "block_no": 21,
+          "line_no": 0,
+          "bbox": [
+            60.0,
+            1740.91,
+            172.39,
+            1827.11
+          ],
+          "bbox_normalized": [
+            0.049,
+            0.5395,
+            0.1407,
+            0.5662
+          ],
+          "links": []
+        },
+        {
+          "text": "• Named individuals or entities",
+          "block_no": 60,
+          "line_no": 0,
+          "bbox": [
+            699.31,
+            1741.72,
+            968.12,
+            1763.89
+          ],
+          "bbox_normalized": [
+            0.5709,
+            0.5397,
+            0.7903,
+            0.5466
+          ],
+          "links": []
+        },
+        {
+          "text": "Obtain Permit",
+          "block_no": 29,
+          "line_no": 0,
+          "bbox": [
+            303.59,
+            1758.5,
+            518.98,
+            1797.91
+          ],
+          "bbox_normalized": [
+            0.2478,
+            0.5449,
+            0.4237,
+            0.5571
+          ],
+          "links": []
+        },
+        {
+          "text": "• Certain countries or regions",
+          "block_no": 61,
+          "line_no": 0,
+          "bbox": [
+            699.31,
+            1773.72,
+            958.69,
+            1795.89
+          ],
+          "bbox_normalized": [
+            0.5709,
+            0.5496,
+            0.7826,
+            0.5565
+          ],
+          "links": []
+        },
+        {
+          "text": "If Required",
+          "block_no": 30,
+          "line_no": 0,
+          "bbox": [
+            396.4,
+            1799.0,
+            518.89,
+            1828.18
+          ],
+          "bbox_normalized": [
+            0.3236,
+            0.5575,
+            0.4236,
+            0.5665
+          ],
+          "links": []
+        },
+        {
+          "text": "Importing sanctioned items is an offence.",
+          "block_no": 62,
+          "line_no": 0,
+          "bbox": [
+            694.0,
+            1805.72,
+            1054.99,
+            1827.89
+          ],
+          "bbox_normalized": [
+            0.5665,
+            0.5596,
+            0.8612,
+            0.5664
+          ],
+          "links": []
+        },
+        {
+          "text": "Check UNSC sanctions →",
+          "block_no": 64,
+          "line_no": 0,
+          "bbox": [
+            688.0,
+            1858.72,
+            912.49,
+            1880.89
+          ],
+          "bbox_normalized": [
+            0.5616,
+            0.576,
+            0.7449,
+            0.5829
+          ],
+          "links": [
+            "https://www.customs.gov.sg/permits-and-licences/trade-controls-and-prohibitions/united-nations-security-council-sanctions/united-nations-security-council-sanctions-overview/"
+          ]
+        },
+        {
+          "text": "If your goods are controlled:",
+          "block_no": 47,
+          "line_no": 0,
+          "bbox": [
+            66.0,
+            1911.72,
+            312.27,
+            1933.89
+          ],
+          "bbox_normalized": [
+            0.0539,
+            0.5924,
+            0.2549,
+            0.5993
+          ],
+          "links": []
+        },
+        {
+          "text": "Obtain relevant CA’s approval",
+          "block_no": 48,
+          "line_no": 0,
+          "bbox": [
+            93.0,
+            1943.72,
+            347.33,
+            1965.89
+          ],
+          "bbox_normalized": [
+            0.0759,
+            0.6023,
+            0.2835,
+            0.6092
+          ],
+          "links": []
+        },
+        {
+          "text": "Prepare required trade documents",
+          "block_no": 49,
+          "line_no": 0,
+          "bbox": [
+            93.0,
+            1975.72,
+            392.47,
+            1997.89
+          ],
+          "bbox_normalized": [
+            0.0759,
+            0.6122,
+            0.3204,
+            0.6191
+          ],
+          "links": []
+        },
+        {
+          "text": "06.",
+          "block_no": 25,
+          "line_no": 0,
+          "bbox": [
+            702.0,
+            1995.91,
+            815.03,
+            2082.11
+          ],
+          "bbox_normalized": [
+            0.5731,
+            0.6185,
+            0.6653,
+            0.6452
+          ],
+          "links": []
+        },
+        {
+          "text": "Clearance of",
+          "block_no": 35,
+          "line_no": 0,
+          "bbox": [
+            975.19,
+            2003.5,
+            1173.84,
+            2042.91
+          ],
+          "bbox_normalized": [
+            0.7961,
+            0.6209,
+            0.9582,
+            0.6331
+          ],
+          "links": []
+        },
+        {
+          "text": "Obtain import permit",
+          "block_no": 50,
+          "line_no": 0,
+          "bbox": [
+            93.0,
+            2007.72,
+            274.19,
+            2029.89
+          ],
+          "bbox_normalized": [
+            0.0759,
+            0.6222,
+            0.2238,
+            0.629
+          ],
+          "links": []
+        },
+        {
+          "text": "Goods",
+          "block_no": 36,
+          "line_no": 0,
+          "bbox": [
+            1072.09,
+            2043.5,
+            1173.94,
+            2082.91
+          ],
+          "bbox_normalized": [
+            0.8752,
+            0.6333,
+            0.9583,
+            0.6455
+          ],
+          "links": []
+        },
+        {
+          "text": "Valid permits must be obtained prior to importation.",
+          "block_no": 51,
+          "line_no": 0,
+          "bbox": [
+            66.0,
+            2071.72,
+            516.68,
+            2093.89
+          ],
+          "bbox_normalized": [
+            0.0539,
+            0.642,
+            0.4218,
+            0.6489
+          ],
+          "links": []
+        },
+        {
+          "text": "Apply for an import permit →",
+          "block_no": 77,
+          "line_no": 0,
+          "bbox": [
+            69.0,
+            2129.72,
+            321.77,
+            2151.89
+          ],
+          "bbox_normalized": [
+            0.0563,
+            0.66,
+            0.2627,
+            0.6668
+          ],
+          "links": [
+            "https://www.customs.gov.sg/doing-business/import-operations/import-procedures/obtain-a-customs-import-permit/"
+          ]
+        },
+        {
+          "text": "When goods",
+          "block_no": 70,
+          "line_no": 0,
+          "bbox": [
+            707.0,
+            2184.72,
+            820.17,
+            2206.89
+          ],
+          "bbox_normalized": [
+            0.5771,
+            0.677,
+            0.6695,
+            0.6839
+          ],
+          "links": []
+        },
+        {
+          "text": "Declarations are checke d",
+          "block_no": 72,
+          "line_no": 0,
+          "bbox": [
+            896.88,
+            2188.72,
+            1128.34,
+            2210.89
+          ],
+          "bbox_normalized": [
+            0.7321,
+            0.6783,
+            0.9211,
+            0.6851
+          ],
+          "links": []
+        },
+        {
+          "text": "arrive:",
+          "block_no": 70,
+          "line_no": 1,
+          "bbox": [
+            707.0,
+            2208.72,
+            764.91,
+            2230.89
+          ],
+          "bbox_normalized": [
+            0.5771,
+            0.6844,
+            0.6244,
+            0.6913
+          ],
+          "links": []
+        },
+        {
+          "text": "Permits and approvals are",
+          "block_no": 73,
+          "line_no": 0,
+          "bbox": [
+            907.0,
+            2212.72,
+            1133.42,
+            2234.89
+          ],
+          "bbox_normalized": [
+            0.7404,
+            0.6857,
+            0.9252,
+            0.6926
+          ],
+          "links": []
+        },
+        {
+          "text": "verified",
+          "block_no": 73,
+          "line_no": 1,
+          "bbox": [
+            907.0,
+            2236.72,
+            972.26,
+            2258.89
+          ],
+          "bbox_normalized": [
+            0.7404,
+            0.6931,
+            0.7937,
+            0.7
+          ],
+          "links": []
+        },
+        {
+          "text": "Goods may be inspected",
+          "block_no": 73,
+          "line_no": 2,
+          "bbox": [
+            907.0,
+            2260.72,
+            1123.57,
+            2282.89
+          ],
+          "bbox_normalized": [
+            0.7404,
+            0.7006,
+            0.9172,
+            0.7074
+          ],
+          "links": []
+        },
+        {
+          "text": "07.",
+          "block_no": 22,
+          "line_no": 0,
+          "bbox": [
+            60.0,
+            2265.91,
+            160.43,
+            2352.11
+          ],
+          "bbox_normalized": [
+            0.049,
+            0.7022,
+            0.131,
+            0.7289
+          ],
+          "links": []
+        },
+        {
+          "text": "Common Questions",
+          "block_no": 31,
+          "line_no": 0,
+          "bbox": [
+            209.31,
+            2274.5,
+            518.69,
+            2313.91
+          ],
+          "bbox_normalized": [
+            0.1709,
+            0.7048,
+            0.4234,
+            0.717
+          ],
+          "links": []
+        },
+        {
+          "text": "from AskGov",
+          "block_no": 32,
+          "line_no": 0,
+          "bbox": [
+            315.88,
+            2314.5,
+            518.95,
+            2353.91
+          ],
+          "bbox_normalized": [
+            0.2579,
+            0.7172,
+            0.4236,
+            0.7294
+          ],
+          "links": []
+        },
+        {
+          "text": "Consequences",
+          "block_no": 71,
+          "line_no": 0,
+          "bbox": [
+            691.0,
+            2365.72,
+            826.29,
+            2387.89
+          ],
+          "bbox_normalized": [
+            0.5641,
+            0.7331,
+            0.6745,
+            0.74
+          ],
+          "links": []
+        },
+        {
+          "text": "Delay s",
+          "block_no": 74,
+          "line_no": 0,
+          "bbox": [
+            896.88,
+            2365.72,
+            965.14,
+            2387.89
+          ],
+          "bbox_normalized": [
+            0.7321,
+            0.7331,
+            0.7879,
+            0.74
+          ],
+          "links": []
+        },
+        {
+          "text": "of non-",
+          "block_no": 71,
+          "line_no": 1,
+          "bbox": [
+            691.0,
+            2389.72,
+            756.51,
+            2411.89
+          ],
+          "bbox_normalized": [
+            0.5641,
+            0.7405,
+            0.6176,
+            0.7474
+          ],
+          "links": []
+        },
+        {
+          "text": "Seizure of goods",
+          "block_no": 75,
+          "line_no": 0,
+          "bbox": [
+            907.0,
+            2389.72,
+            1054.43,
+            2411.89
+          ],
+          "bbox_normalized": [
+            0.7404,
+            0.7405,
+            0.8608,
+            0.7474
+          ],
+          "links": []
+        },
+        {
+          "text": "compliance:",
+          "block_no": 71,
+          "line_no": 2,
+          "bbox": [
+            691.0,
+            2413.72,
+            801.03,
+            2435.89
+          ],
+          "bbox_normalized": [
+            0.5641,
+            0.748,
+            0.6539,
+            0.7548
+          ],
+          "links": []
+        },
+        {
+          "text": "Penalties or enforcement",
+          "block_no": 75,
+          "line_no": 1,
+          "bbox": [
+            907.0,
+            2413.72,
+            1125.51,
+            2435.89
+          ],
+          "bbox_normalized": [
+            0.7404,
+            0.748,
+            0.9188,
+            0.7548
+          ],
+          "links": []
+        },
+        {
+          "text": "action",
+          "block_no": 75,
+          "line_no": 2,
+          "bbox": [
+            907.0,
+            2437.72,
+            960.48,
+            2459.89
+          ],
+          "bbox_normalized": [
+            0.7404,
+            0.7554,
+            0.7841,
+            0.7623
+          ],
+          "links": []
+        },
+        {
+          "text": "Q1:",
+          "block_no": 0,
+          "line_no": 0,
+          "bbox": [
+            70.78,
+            2444.5,
+            120.96,
+            2483.91
+          ],
+          "bbox_normalized": [
+            0.0578,
+            0.7575,
+            0.0987,
+            0.7697
+          ],
+          "links": []
+        },
+        {
+          "text": "How do I know if my goods are controlled or",
+          "block_no": 0,
+          "line_no": 1,
+          "bbox": [
+            147.0,
+            2449.72,
+            528.67,
+            2471.89
+          ],
+          "bbox_normalized": [
+            0.12,
+            0.7591,
+            0.4316,
+            0.766
+          ],
+          "links": []
+        },
+        {
+          "text": "prohibited?",
+          "block_no": 1,
+          "line_no": 0,
+          "bbox": [
+            147.0,
+            2481.72,
+            247.93,
+            2503.89
+          ],
+          "bbox_normalized": [
+            0.12,
+            0.769,
+            0.2024,
+            0.7759
+          ],
+          "links": []
+        },
+        {
+          "text": "Self-check using the HS/CA Product Code",
+          "block_no": 2,
+          "line_no": 0,
+          "bbox": [
+            147.0,
+            2521.72,
+            515.25,
+            2543.89
+          ],
+          "bbox_normalized": [
+            0.12,
+            0.7814,
+            0.4206,
+            0.7883
+          ],
+          "links": []
+        },
+        {
+          "text": "Prepare documents for clearance →",
+          "block_no": 65,
+          "line_no": 0,
+          "bbox": [
+            872.04,
+            2523.72,
+            1186.0,
+            2545.89
+          ],
+          "bbox_normalized": [
+            0.7119,
+            0.7821,
+            0.9682,
+            0.7889
+          ],
+          "links": [
+            "https://www.customs.gov.sg/doing-business/import-operations/import-procedures/documents-for-clearance-of-goods/"
+          ]
+        },
+        {
+          "text": "Checker.",
+          "block_no": 3,
+          "line_no": 0,
+          "bbox": [
+            147.0,
+            2553.72,
+            223.35,
+            2575.89
+          ],
+          "bbox_normalized": [
+            0.12,
+            0.7914,
+            0.1823,
+            0.7982
+          ],
+          "links": []
+        },
+        {
+          "text": "Q2:",
+          "block_no": 4,
+          "line_no": 0,
+          "bbox": [
+            66.28,
+            2604.5,
+            120.94,
+            2643.91
+          ],
+          "bbox_normalized": [
+            0.0541,
+            0.8071,
+            0.0987,
+            0.8193
+          ],
+          "links": []
+        },
+        {
+          "text": "Can I import first and apply for approval later?",
+          "block_no": 4,
+          "line_no": 1,
+          "bbox": [
+            147.0,
+            2609.72,
+            548.69,
+            2631.89
+          ],
+          "bbox_normalized": [
+            0.12,
+            0.8087,
+            0.4479,
+            0.8156
+          ],
+          "links": []
+        },
+        {
+          "text": "No. Valid permits (including CA’s approval) must be",
+          "block_no": 5,
+          "line_no": 0,
+          "bbox": [
+            147.0,
+            2649.72,
+            589.76,
+            2671.89
+          ],
+          "bbox_normalized": [
+            0.12,
+            0.8211,
+            0.4814,
+            0.828
+          ],
+          "links": []
+        },
+        {
+          "text": "obtained prior to importation.",
+          "block_no": 6,
+          "line_no": 0,
+          "bbox": [
+            147.0,
+            2681.72,
+            403.46,
+            2703.89
+          ],
+          "bbox_normalized": [
+            0.12,
+            0.831,
+            0.3294,
+            0.8379
+          ],
+          "links": []
+        },
+        {
+          "text": "Q3:",
+          "block_no": 7,
+          "line_no": 0,
+          "bbox": [
+            66.34,
+            2732.5,
+            121.96,
+            2771.91
+          ],
+          "bbox_normalized": [
+            0.0542,
+            0.8468,
+            0.0996,
+            0.859
+          ],
+          "links": []
+        },
+        {
+          "text": "What happens if I import prohibited goods?",
+          "block_no": 7,
+          "line_no": 1,
+          "bbox": [
+            148.0,
+            2737.72,
+            528.0,
+            2759.89
+          ],
+          "bbox_normalized": [
+            0.1208,
+            0.8484,
+            0.431,
+            0.8552
+          ],
+          "links": []
+        },
+        {
+          "text": "Goods may be seized and enforcement action",
+          "block_no": 8,
+          "line_no": 0,
+          "bbox": [
+            148.0,
+            2777.72,
+            548.17,
+            2799.89
+          ],
+          "bbox_normalized": [
+            0.1208,
+            0.8608,
+            0.4475,
+            0.8676
+          ],
+          "links": []
+        },
+        {
+          "text": "may be taken.",
+          "block_no": 9,
+          "line_no": 0,
+          "bbox": [
+            148.0,
+            2809.72,
+            270.15,
+            2831.89
+          ],
+          "bbox_normalized": [
+            0.1208,
+            0.8707,
+            0.2205,
+            0.8776
+          ],
+          "links": []
+        },
+        {
+          "text": "Q4:",
+          "block_no": 10,
+          "line_no": 0,
+          "bbox": [
+            66.75,
+            2860.5,
+            122.94,
+            2899.91
+          ],
+          "bbox_normalized": [
+            0.0545,
+            0.8864,
+            0.1004,
+            0.8986
+          ],
+          "links": []
+        },
+        {
+          "text": "Do UN sanctions apply to businesses?",
+          "block_no": 10,
+          "line_no": 1,
+          "bbox": [
+            149.0,
+            2865.72,
+            483.95,
+            2887.89
+          ],
+          "bbox_normalized": [
+            0.1216,
+            0.888,
+            0.3951,
+            0.8949
+          ],
+          "links": []
+        },
+        {
+          "text": "Yes. All importers must comply with UNSC sanctions.",
+          "block_no": 11,
+          "line_no": 0,
+          "bbox": [
+            149.0,
+            2905.72,
+            612.67,
+            2927.89
+          ],
+          "bbox_normalized": [
+            0.1216,
+            0.9004,
+            0.5001,
+            0.9073
+          ],
+          "links": []
+        },
+        {
+          "text": "Related AskGov questions here →",
+          "block_no": 67,
+          "line_no": 0,
+          "bbox": [
+            254.0,
+            2995.72,
+            550.5,
+            3017.89
+          ],
+          "bbox_normalized": [
+            0.2073,
+            0.9283,
+            0.4494,
+            0.9352
+          ],
+          "links": [
+            "https://ask.gov.sg/customs?topic=Import+Procedures"
+          ]
+        },
+        {
+          "text": "Visit customs.gov.sg for the latest rules and information.",
+          "block_no": 68,
+          "line_no": 0,
+          "bbox": [
+            66.0,
+            3125.22,
+            557.97,
+            3147.39
+          ],
+          "bbox_normalized": [
+            0.0539,
+            0.9685,
+            0.4555,
+            0.9753
+          ],
+          "links": [
+            "https://customs.gov.sg"
+          ]
+        },
+        {
+          "text": "Information accurate as of 2026.",
+          "block_no": 69,
+          "line_no": 0,
+          "bbox": [
+            66.0,
+            3157.22,
+            350.53,
+            3179.39
+          ],
+          "bbox_normalized": [
+            0.0539,
+            0.9784,
+            0.2861,
+            0.9852
+          ],
+          "links": []
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.customs.gov.sg/permits-and-licences/trade-controls-and-prohibitions/united-nations-security-council-sanctions/united-nations-security-council-sanctions-overview/",
+          "bbox": [
+            688.0,
+            1859.11,
+            891.16,
+            1880.89
+          ]
+        },
+        {
+          "url": "https://www.customs.gov.sg/doing-business/import-operations/import-procedures/documents-for-clearance-of-goods/",
+          "bbox": [
+            872.04,
+            2524.11,
+            1164.66,
+            2545.89
+          ]
+        },
+        {
+          "url": "https://ask.gov.sg/customs?topic=Import+Procedures",
+          "bbox": [
+            254.0,
+            2996.11,
+            529.48,
+            3017.89
+          ]
+        },
+        {
+          "url": "https://customs.gov.sg",
+          "bbox": [
+            109.21,
+            3125.61,
+            245.65,
+            3147.39
+          ]
+        },
+        {
+          "url": "https://www.customs.gov.sg/doing-business/import-operations/import-procedures/controlled-and-prohibited-goods-for-imports/",
+          "bbox": [
+            69.0,
+            827.11,
+            488.6,
+            848.89
+          ]
+        },
+        {
+          "url": "https://www.customs.gov.sg/doing-business/import-operations/import-procedures/obtain-a-customs-import-permit/",
+          "bbox": [
+            69.0,
+            2130.11,
+            300.43,
+            2151.89
+          ]
+        }
+      ],
+      "image_count": 17,
+      "images": [
+        {
+          "xref": 143,
+          "width": 1195,
+          "height": 966,
+          "bbox": [
+            902.0,
+            1003.87,
+            988.0,
+            1074.15
+          ],
+          "bbox_normalized": [
+            0.7363,
+            0.3111,
+            0.8065,
+            0.3329
+          ]
+        },
+        {
+          "xref": 163,
+          "width": 214,
+          "height": 265,
+          "bbox": [
+            905.67,
+            1037.99,
+            921.07,
+            1057.27
+          ],
+          "bbox_normalized": [
+            0.7393,
+            0.3217,
+            0.7519,
+            0.3276
+          ]
+        },
+        {
+          "xref": 159,
+          "width": 213,
+          "height": 265,
+          "bbox": [
+            906.1,
+            1037.63,
+            921.43,
+            1056.91
+          ],
+          "bbox_normalized": [
+            0.7397,
+            0.3215,
+            0.7522,
+            0.3275
+          ]
+        },
+        {
+          "xref": 171,
+          "width": 213,
+          "height": 265,
+          "bbox": [
+            906.1,
+            1037.41,
+            921.43,
+            1056.69
+          ],
+          "bbox_normalized": [
+            0.7397,
+            0.3215,
+            0.7522,
+            0.3275
+          ]
+        },
+        {
+          "xref": 155,
+          "width": 44,
+          "height": 92,
+          "bbox": [
+            909.92,
+            1046.07,
+            913.08,
+            1052.76
+          ],
+          "bbox_normalized": [
+            0.7428,
+            0.3242,
+            0.7454,
+            0.3262
+          ]
+        },
+        {
+          "xref": 151,
+          "width": 44,
+          "height": 93,
+          "bbox": [
+            907.25,
+            1044.76,
+            910.42,
+            1051.52
+          ],
+          "bbox_normalized": [
+            0.7406,
+            0.3238,
+            0.7432,
+            0.3259
+          ]
+        },
+        {
+          "xref": 151,
+          "width": 44,
+          "height": 93,
+          "bbox": [
+            913.59,
+            1047.81,
+            916.75,
+            1054.58
+          ],
+          "bbox_normalized": [
+            0.7458,
+            0.3247,
+            0.7484,
+            0.3268
+          ]
+        },
+        {
+          "xref": 139,
+          "width": 37,
+          "height": 89,
+          "bbox": [
+            908.84,
+            1045.56,
+            911.5,
+            1052.03
+          ],
+          "bbox_normalized": [
+            0.7419,
+            0.324,
+            0.7441,
+            0.326
+          ]
+        },
+        {
+          "xref": 167,
+          "width": 36,
+          "height": 89,
+          "bbox": [
+            911.57,
+            1046.79,
+            914.16,
+            1053.27
+          ],
+          "bbox_normalized": [
+            0.7441,
+            0.3244,
+            0.7463,
+            0.3264
+          ]
+        },
+        {
+          "xref": 130,
+          "width": 36,
+          "height": 88,
+          "bbox": [
+            912.58,
+            1047.3,
+            915.17,
+            1053.71
+          ],
+          "bbox_normalized": [
+            0.745,
+            0.3245,
+            0.7471,
+            0.3265
+          ]
+        },
+        {
+          "xref": 130,
+          "width": 36,
+          "height": 88,
+          "bbox": [
+            915.17,
+            1048.54,
+            917.76,
+            1054.94
+          ],
+          "bbox_normalized": [
+            0.7471,
+            0.3249,
+            0.7492,
+            0.3269
+          ]
+        },
+        {
+          "xref": 147,
+          "width": 626,
+          "height": 278,
+          "bbox": [
+            927.12,
+            1010.27,
+            972.17,
+            1030.5
+          ],
+          "bbox_normalized": [
+            0.7568,
+            0.3131,
+            0.7936,
+            0.3193
+          ]
+        },
+        {
+          "xref": 38,
+          "width": 184,
+          "height": 250,
+          "bbox": [
+            978.15,
+            2740.09,
+            987.79,
+            2753.24
+          ],
+          "bbox_normalized": [
+            0.7985,
+            0.8491,
+            0.8064,
+            0.8532
+          ]
+        },
+        {
+          "xref": 34,
+          "width": 224,
+          "height": 287,
+          "bbox": [
+            775.49,
+            2862.43,
+            787.15,
+            2877.44
+          ],
+          "bbox_normalized": [
+            0.6331,
+            0.887,
+            0.6426,
+            0.8917
+          ]
+        },
+        {
+          "xref": 30,
+          "width": 189,
+          "height": 265,
+          "bbox": [
+            1015.56,
+            2872.71,
+            1025.4,
+            2886.48
+          ],
+          "bbox_normalized": [
+            0.829,
+            0.8902,
+            0.8371,
+            0.8945
+          ]
+        },
+        {
+          "xref": 21,
+          "width": 990,
+          "height": 661,
+          "bbox": [
+            22.63,
+            2920.17,
+            286.05,
+            3097.1
+          ],
+          "bbox_normalized": [
+            0.0185,
+            0.9049,
+            0.2335,
+            0.9597
+          ]
+        },
+        {
+          "xref": 78,
+          "width": 4096,
+          "height": 1950,
+          "bbox": [
+            939.0,
+            3097.99,
+            1168.0,
+            3207.01
+          ],
+          "bbox_normalized": [
+            0.7665,
+            0.96,
+            0.9535,
+            0.9938
+          ]
+        }
+      ],
+      "render_file": "Controlled-and-Prohibited-Goods_page_1.png"
+    }
+  ]
+}
