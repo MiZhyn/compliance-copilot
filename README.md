@@ -76,6 +76,9 @@ Final Answer
 
 This makes the execution path visible instead of hiding all reasoning behind a single chat response.
 
+![Demo](assets/Demo2.jpg)
+![Demo](assets/Demo1.jpg)
+
 ---
 
 ## 3. System Architecture
@@ -186,6 +189,7 @@ Retrieved evidence is assigned controlled citation IDs before being passed to th
 The final answer can then reference the evidence that supports each policy claim.
 
 This improves traceability and reduces unsupported answers.
+![Demo](assets/Demo5.jpg)
 
 ### 4.5 Conversation history is context, not evidence
 
