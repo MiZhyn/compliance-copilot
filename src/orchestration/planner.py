@@ -3,6 +3,7 @@ from __future__ import annotations
 import os
 from datetime import date, datetime
 from pathlib import Path
+from typing import Literal
 
 from dotenv import load_dotenv
 from langchain_anthropic import ChatAnthropic
@@ -34,49 +35,76 @@ DEFAULT_ANTHROPIC_MODEL = (
 
 
 # =========================================================
+# Knowledge routing
+# =========================================================
+
+KnowledgeTopic = Literal[
+    "visa",
+    "fst",
+    "customs",
+]
+
+
+class KnowledgeRequest(BaseModel):
+    """
+    One focused RAG retrieval task.
+
+    A compound user question may generate multiple
+    KnowledgeRequest objects.
+    """
+
+    topic: KnowledgeTopic = Field(
+        description=(
+            "Knowledge domain for retrieval. "
+            "Allowed values: visa, fst, customs."
+        ),
+    )
+
+    query: str = Field(
+        min_length=1,
+        description=(
+            "A focused retrieval query for this domain. "
+            "The query should preserve important entities, "
+            "such as country names, tour names, goods, "
+            "policy terms, or user constraints."
+        ),
+    )
+
+
+# =========================================================
 # Structured Travel Request
 # =========================================================
 
 class TravelRequest(BaseModel):
     """
-    Structured representation of the user's request.
+    Structured execution plan extracted from the
+    current user request.
 
-    Planner responsibilities:
-    - extract user-provided facts
-    - normalize entities
-    - identify requested checks
-    - identify missing required inputs
-
-    Planner must NOT:
-    - determine visa eligibility
-    - determine FST eligibility
-    - calculate transit duration
-    - query operational databases
+    Knowledge requirements and operational tool
+    requirements are intentionally separated.
     """
 
     # -----------------------------------------------------
-    # Traveller
+    # Traveller context
     # -----------------------------------------------------
 
     passport_country: str | None = Field(
         default=None,
         description=(
-            "Passport issuing country. "
-            "For example: India, China, "
-            "United Kingdom."
+            "Passport issuing country when relevant. "
+            "Example: India, China, United Kingdom."
         ),
     )
 
     # -----------------------------------------------------
-    # Arrival
+    # Arrival journey
     # -----------------------------------------------------
 
     arrival_flight: str | None = Field(
         default=None,
         description=(
-            "Arrival flight number, normalized "
-            "to uppercase without spaces. "
-            "Example: SQ12."
+            "Arrival flight number normalized to "
+            "uppercase without spaces. Example: SQ12."
         ),
     )
 
@@ -88,15 +116,14 @@ class TravelRequest(BaseModel):
     )
 
     # -----------------------------------------------------
-    # Departure
+    # Departure journey
     # -----------------------------------------------------
 
     departure_flight: str | None = Field(
         default=None,
         description=(
-            "Departure flight number, normalized "
-            "to uppercase without spaces. "
-            "Example: SQ318."
+            "Departure flight number normalized to "
+            "uppercase without spaces. Example: SQ318."
         ),
     )
 
@@ -107,34 +134,59 @@ class TravelRequest(BaseModel):
         ),
     )
 
-    # -----------------------------------------------------
-    # Requested checks
-    # -----------------------------------------------------
+    # =====================================================
+    # Knowledge requirements
+    # =====================================================
 
-    check_visa: bool = Field(
-        default=False,
+    knowledge_requests: list[
+        KnowledgeRequest
+    ] = Field(
+        default_factory=list,
         description=(
-            "True when the user asks about visa, "
-            "entry requirements, VFTF, or whether "
-            "they can enter Singapore."
+            "Independent knowledge retrieval tasks needed "
+            "to answer the current request. "
+            "A compound question may contain several tasks."
         ),
     )
 
-    check_fst: bool = Field(
+    # =====================================================
+    # Operational tool requirements
+    # =====================================================
+
+    needs_arrival_flight_lookup: bool = Field(
         default=False,
         description=(
-            "True when the user asks about the "
-            "Free Singapore Tour, FST, or which "
-            "tour session they can join."
+            "True when answering the request requires "
+            "actual arrival flight operational data."
         ),
     )
 
-    check_transit: bool = Field(
+    needs_departure_flight_lookup: bool = Field(
         default=False,
         description=(
-            "True when the requested task requires "
-            "checking the time between arrival "
-            "and departure."
+            "True when answering the request requires "
+            "actual departure flight operational data."
+        ),
+    )
+
+    needs_transit_calculation: bool = Field(
+        default=False,
+        description=(
+            "True when arrival and departure times must "
+            "be compared or transit duration calculated."
+        ),
+    )
+
+    needs_fst_operational_check: bool = Field(
+        default=False,
+        description=(
+            "True only when the user wants to know which "
+            "actual Free Singapore Tour sessions are "
+            "operationally feasible based on their flights, "
+            "timing, session status, and availability. "
+            "General questions about tour details, itinerary, "
+            "attractions, or requirements do not require "
+            "this operational check."
         ),
     )
 
@@ -145,29 +197,32 @@ class TravelRequest(BaseModel):
     missing_fields: list[str] = Field(
         default_factory=list,
         description=(
-            "Required information missing from "
-            "the user's request."
+            "Required information that is missing from "
+            "both the current request and useful previous "
+            "conversation context."
         ),
     )
 
 
 # =========================================================
-# Travel Planner
+# Planner
 # =========================================================
 
 class TravelPlanner:
     """
     Natural language
         ↓
-    Structured TravelRequest
+    Query decomposition
+        ↓
+    TravelRequest
 
-    The planner only decides:
+    The planner decides WHAT needs to be checked.
 
-    - what the user provided
-    - what the user wants checked
-    - what information is missing
-
-    It does NOT decide the final answer.
+    It does not:
+    - retrieve knowledge
+    - query SQLite
+    - perform calculations
+    - determine the final answer
     """
 
     def __init__(
@@ -198,7 +253,7 @@ class TravelPlanner:
         self.llm = ChatAnthropic(
             model=model_name,
             temperature=0,
-            max_tokens=1000,
+            max_tokens=1600,
         )
 
         self.structured_llm = (
@@ -210,48 +265,33 @@ class TravelPlanner:
 
 
     # =====================================================
-    # Normalize flight number
+    # Normalisation
     # =====================================================
 
     @staticmethod
     def _normalize_flight_number(
-        flight_number: str | None,
+        value: str | None,
     ) -> str | None:
-        """
-        Defensive normalization after LLM extraction.
 
-        Examples:
-            "sq 12" -> "SQ12"
-            " Sq318 " -> "SQ318"
-        """
+        if not value:
 
-        if not flight_number:
             return None
 
         return (
-            flight_number
+            value
             .replace(" ", "")
             .strip()
             .upper()
         )
 
 
-    # =====================================================
-    # Validate ISO date
-    # =====================================================
-
     @staticmethod
     def _validate_date(
         value: str | None,
     ) -> str | None:
-        """
-        Keep normalized ISO date only.
-
-        Planner normally produces YYYY-MM-DD,
-        but this adds a deterministic validation layer.
-        """
 
         if not value:
+
             return None
 
         try:
@@ -261,12 +301,12 @@ class TravelPlanner:
                 "%Y-%m-%d",
             )
 
-        except ValueError:
+        except ValueError as exc:
 
             raise ValueError(
-                "Planner returned invalid date: "
+                "Planner returned an invalid date: "
                 f"{value}"
-            )
+            ) from exc
 
         return parsed.strftime(
             "%Y-%m-%d"
@@ -274,97 +314,151 @@ class TravelPlanner:
 
 
     # =====================================================
-    # Recalculate missing fields deterministically
+    # Knowledge request cleanup
     # =====================================================
 
     @staticmethod
-    def _get_missing_fields(
+    def _normalize_knowledge_requests(
+        requests: list[
+            KnowledgeRequest
+        ],
+    ) -> list[KnowledgeRequest]:
+        """
+        Remove accidental duplicate retrieval tasks while
+        preserving independent topics.
+        """
+
+        cleaned: list[
+            KnowledgeRequest
+        ] = []
+
+        seen: set[
+            tuple[str, str]
+        ] = set()
+
+        for item in requests:
+
+            query = " ".join(
+                item.query.split()
+            ).strip()
+
+            key = (
+                item.topic,
+                query.casefold(),
+            )
+
+            if key in seen:
+                continue
+
+            seen.add(
+                key
+            )
+
+            cleaned.append(
+                KnowledgeRequest(
+                    topic=item.topic,
+                    query=query,
+                )
+            )
+
+        return cleaned
+
+
+    # =====================================================
+    # Deterministic tool dependencies
+    # =====================================================
+
+    @staticmethod
+    def _apply_tool_dependencies(
+        request: TravelRequest,
+    ) -> None:
+        """
+        Enforce deterministic dependencies after the LLM
+        produces the initial plan.
+
+        Transit calculation requires both flight lookups.
+
+        An FST operational eligibility check also requires
+        arrival/departure data and transit calculation.
+        """
+
+        if request.needs_transit_calculation:
+
+            request.needs_arrival_flight_lookup = (
+                True
+            )
+
+            request.needs_departure_flight_lookup = (
+                True
+            )
+
+        if request.needs_fst_operational_check:
+
+            request.needs_arrival_flight_lookup = (
+                True
+            )
+
+            request.needs_departure_flight_lookup = (
+                True
+            )
+
+            request.needs_transit_calculation = (
+                True
+            )
+
+
+    # =====================================================
+    # Deterministic missing-field validation
+    # =====================================================
+
+    @staticmethod
+    def _validate_missing_fields(
         request: TravelRequest,
     ) -> list[str]:
         """
-        Do not rely entirely on the LLM for
-        missing-field validation.
-
-        Required fields depend on requested action.
+        Preserve semantic missing fields identified by
+        the planner, then deterministically validate
+        operational tool inputs.
         """
 
-        missing: list[str] = []
+        missing = list(
+            request.missing_fields
+        )
 
-        # -------------------------------------------------
-        # Visa / immigration check
-        # -------------------------------------------------
+        if (
+            request
+            .needs_arrival_flight_lookup
+        ):
 
-        if request.check_visa:
-
-            if not request.passport_country:
+            if not request.arrival_flight:
 
                 missing.append(
-                    "passport_country"
+                    "arrival_flight"
                 )
 
-        # -------------------------------------------------
-        # FST operational timing check
-        # -------------------------------------------------
+            if not request.arrival_date:
 
-        if request.check_fst:
+                missing.append(
+                    "arrival_date"
+                )
 
-            required_fst_fields = {
-                "arrival_flight":
-                    request.arrival_flight,
+        if (
+            request
+            .needs_departure_flight_lookup
+        ):
 
-                "arrival_date":
-                    request.arrival_date,
+            if not request.departure_flight:
 
-                "departure_flight":
-                    request.departure_flight,
+                missing.append(
+                    "departure_flight"
+                )
 
-                "departure_date":
-                    request.departure_date,
-            }
+            if not request.departure_date:
 
-            for (
-                field_name,
-                field_value,
-            ) in required_fst_fields.items():
+                missing.append(
+                    "departure_date"
+                )
 
-                if not field_value:
-
-                    missing.append(
-                        field_name
-                    )
-
-        # -------------------------------------------------
-        # Explicit transit check
-        # -------------------------------------------------
-
-        elif request.check_transit:
-
-            required_transit_fields = {
-                "arrival_flight":
-                    request.arrival_flight,
-
-                "arrival_date":
-                    request.arrival_date,
-
-                "departure_flight":
-                    request.departure_flight,
-
-                "departure_date":
-                    request.departure_date,
-            }
-
-            for (
-                field_name,
-                field_value,
-            ) in required_transit_fields.items():
-
-                if not field_value:
-
-                    missing.append(
-                        field_name
-                    )
-
-        # Remove duplicates while preserving order.
         return list(
             dict.fromkeys(
                 missing
@@ -379,68 +473,330 @@ class TravelPlanner:
     def plan(
         self,
         user_query: str,
+        conversation_context: str | None = None,
     ) -> TravelRequest:
-        """
-        Convert user language into structured intent.
-        """
 
         reference_date = (
             date.today()
             .isoformat()
         )
 
-        prompt = f"""
-You are the planning layer of a travel and compliance
-copilot.
+        context_text = (
+            conversation_context
+            or "No previous conversation context."
+        )
 
-Your ONLY job is to extract structured information and
-identify which downstream checks are required.
+        prompt = f"""
+You are the planning and query-decomposition layer of an
+enterprise travel and compliance copilot.
+
+Your ONLY job is to understand the current request and
+create a structured execution plan.
 
 REFERENCE DATE:
 {reference_date}
 
-USER REQUEST:
+
+PREVIOUS CONVERSATION CONTEXT:
+
+{context_text}
+
+
+CURRENT USER REQUEST:
+
 {user_query}
 
 
-GENERAL RULES:
+============================================================
+CORE RULE
+============================================================
 
-1. Extract facts provided by the user.
+Separate:
 
-2. Do NOT answer the user's question.
+1. KNOWLEDGE questions
+2. OPERATIONAL data requirements
+3. DETERMINISTIC calculations
 
-3. Do NOT determine visa eligibility.
-
-4. Do NOT determine Free Singapore Tour eligibility.
-
-5. Do NOT calculate transit duration.
-
-6. Do NOT guess flight schedules.
-
-7. Do NOT invent missing information.
+Do not answer the user's question yourself.
 
 
-PASSPORT COUNTRY:
+============================================================
+CONVERSATION RULES
+============================================================
 
-Extract the passport issuing country when supplied.
+Use previous conversation context only when needed to
+resolve references in the CURRENT request.
+
+Example:
+
+Previous answer:
+"City Sights Tour and Sentosa Discovery Tour are feasible."
+
+Current request:
+"Tell me more about the second one."
+
+Resolve:
+"the second one"
+→ Sentosa Discovery Tour
+
+The CURRENT request has priority.
+
+Do not automatically repeat every intent from the
+previous turn.
+
+Example:
+
+Previous:
+"Which tours can I join and do I need a visa?"
+
+Current:
+"Give me more detail about City Sights Tour."
+
+The current request is only asking for FST knowledge.
+
+Do NOT automatically repeat:
+- visa lookup
+- flight lookup
+- transit calculation
+
+unless they are actually required by the new question.
+
+
+============================================================
+KNOWLEDGE REQUESTS
+============================================================
+
+Create one KnowledgeRequest for each independent
+knowledge domain needed.
+
+Allowed topics:
+
+visa
+fst
+customs
+
+
+-------------------------
+VISA
+-------------------------
+Use topic="visa" for all Singapore visa and immigration
+entry-policy questions, including:
+
+- whether a passport holder needs a visa
+- Singapore entry visa requirements
+- visa application procedures
+- visa fees
+- visa documents
+- visa exemptions
+- Visa Free Transit Facility (VFTF)
+- VFTF eligibility and conditions
+
+IMPORTANT:
+
+The retrieval query should include the specific policy concepts
+that may be needed to answer the user's question.
+
+Example:
+
+User:
+"I am Chinese. Do I need to apply for a visa to enter Singapore?"
+
+topic:
+visa
+
+query:
+Singapore entry visa requirements for Chinese passport holders,
+including relevant visa exemptions and Visa Free Transit Facility
+(VFTF) conditions.
+
+
+-------------------------
+FST
+-------------------------
+
+Use topic="fst" for:
+
+- Free Singapore Tour
+- City Sights Tour
+- Heritage and Culture Tour
+- Sentosa Discovery Tour
+- Singapore River and Marina Bay Sands Tour
+- itinerary
+- attractions
+- tour details
+- FST requirements
+- registration rules
+- participation policy
+
 
 Examples:
 
-"Indian passport holder"
-→ India
+"Give me more detail about City Sights Tour"
 
-"Chinese passport"
-→ China
+→ one knowledge request:
 
-"UK passport holder"
-→ United Kingdom
+topic:
+fst
+
+query:
+Give detailed information about City Sights Tour,
+including its itinerary and attractions.
 
 
-FLIGHT NUMBER RULES:
+"What are the requirements for joining FST?"
 
-Normalize flight numbers to uppercase without spaces.
+→ one fst knowledge request.
 
-Examples:
+
+-------------------------
+CUSTOMS
+-------------------------
+
+Use topic="customs" for:
+
+- controlled goods
+- prohibited goods
+- bringing goods into Singapore
+- customs declarations
+- drones
+- cigarettes
+- customs offences
+- composition amounts
+- permits
+
+
+Example:
+
+"Can I bring a drone into Singapore?"
+
+→ one customs knowledge request.
+
+
+============================================================
+COMPOUND QUESTIONS
+============================================================
+
+A user request may create MULTIPLE knowledge requests.
+
+Example:
+
+"I'm an Indian passport holder.
+Can I bring a drone into Singapore,
+and can I join City Sights Tour?"
+
+Possible knowledge requests:
+
+1.
+topic = visa
+query = Singapore visa requirement for an Indian
+passport holder.
+
+2.
+topic = customs
+query = Rules for bringing a drone into Singapore.
+
+3.
+topic = fst
+query = City Sights Tour details and participation
+requirements.
+
+If VFTF is relevant to the user's transit decision,
+also create a separate vftf request.
+
+Each retrieval query should be focused on ONE domain.
+
+Preserve important entities such as:
+- India
+- City Sights Tour
+- drone
+- cigarettes
+- VFTF
+
+
+============================================================
+OPERATIONAL TOOL ROUTING
+============================================================
+
+Set:
+
+needs_arrival_flight_lookup = true
+
+only when actual arrival flight operational data is
+required.
+
+
+Set:
+
+needs_departure_flight_lookup = true
+
+only when actual departure flight operational data is
+required.
+
+
+Set:
+
+needs_transit_calculation = true
+
+when arrival and departure times must be compared.
+
+
+Set:
+
+needs_fst_operational_check = true
+
+ONLY when the user wants to know which actual FST
+sessions are operationally feasible based on their
+journey.
+
+
+IMPORTANT DISTINCTION:
+
+"Give me more detail about City Sights Tour"
+
+→ knowledge_requests = [fst]
+→ needs_arrival_flight_lookup = false
+→ needs_departure_flight_lookup = false
+→ needs_transit_calculation = false
+→ needs_fst_operational_check = false
+
+
+"Which FST can I join with SQ12 and SQ318?"
+
+→ knowledge_requests includes fst
+→ needs_arrival_flight_lookup = true
+→ needs_departure_flight_lookup = true
+→ needs_transit_calculation = true
+→ needs_fst_operational_check = true
+
+
+============================================================
+DATES
+============================================================
+
+Output dates as:
+
+YYYY-MM-DD
+
+If the user provides month/day but no year, resolve the
+next reasonable occurrence relative to the reference
+date.
+
+Example:
+
+Reference date:
+2026-08-09
+
+"Aug 20"
+→ 2026-08-20
+
+Do not invent a date when none is provided.
+
+
+============================================================
+FLIGHT NUMBERS
+============================================================
+
+Normalize:
 
 "sq 12"
 → SQ12
@@ -449,104 +805,29 @@ Examples:
 → SQ318
 
 
-DATE RULES:
-
-Output all dates in:
-
-YYYY-MM-DD
-
-If the user provides a month and day but no year,
-use the next reasonable occurrence relative to the
-reference date.
-
-Example:
-
-Reference date:
-2026-08-09
-
-User:
-"Aug 20"
-
-Result:
-2026-08-20
-
-If the user explicitly supplies a year,
-preserve that year.
-
-Do not invent a date when the user did not provide
-enough information.
-
-
-INTENT RULES:
-
-Set:
-
-check_visa = true
-
-when the user asks about:
-
-- visa requirements
-- entry visa
-- whether they need a visa
-- Singapore entry requirements
-- Visa Free Transit Facility
-- VFTF
-
-
-Set:
-
-check_fst = true
-
-when the user asks about:
-
-- Free Singapore Tour
-- FST
-- which Free Singapore Tour they can join
-- which tour session is available or suitable
-
-
-Set:
-
-check_transit = true
-
-when:
-
-- the user asks which FST session they can join
-  based on arrival/departure flights
-
-- the request requires comparing arrival and
-  departure timing
-
-- the user explicitly asks about transit duration
-
-
-IMPORTANT:
-
-If check_fst=true and the user wants to know which
-specific session they can join, transit timing is
-required, so check_transit should also be true.
-
-
-MISSING FIELD GUIDANCE:
-
-For visa checking:
-
-passport_country is normally required.
-
-
-For specific FST session checking:
-
-arrival_flight
-arrival_date
-departure_flight
-departure_date
-
-are required.
-
+============================================================
+MISSING INFORMATION
+============================================================
 
 Do not invent missing values.
 
-Return only the structured TravelRequest.
+If a knowledge question requires user-specific context
+that is unavailable, include it in missing_fields.
+
+Example:
+
+"Do I need a Singapore visa?"
+
+with no passport country in the current request or
+conversation:
+
+missing_fields:
+["passport_country"]
+
+Operational inputs are also validated by Python after
+your output.
+
+Return ONLY the structured TravelRequest.
 """.strip()
 
         result = (
@@ -557,7 +838,7 @@ Return only the structured TravelRequest.
         )
 
         # =================================================
-        # Deterministic normalization
+        # Normalise extracted values
         # =================================================
 
         result.arrival_flight = (
@@ -587,17 +868,34 @@ Return only the structured TravelRequest.
         if result.passport_country:
 
             result.passport_country = (
-                result
-                .passport_country
+                result.passport_country
                 .strip()
             )
 
         # =================================================
-        # Deterministic missing-field validation
+        # Clean RAG plan
+        # =================================================
+
+        result.knowledge_requests = (
+            self._normalize_knowledge_requests(
+                result.knowledge_requests
+            )
+        )
+
+        # =================================================
+        # Enforce deterministic tool dependencies
+        # =================================================
+
+        self._apply_tool_dependencies(
+            result
+        )
+
+        # =================================================
+        # Validate missing operational inputs
         # =================================================
 
         result.missing_fields = (
-            self._get_missing_fields(
+            self._validate_missing_fields(
                 result
             )
         )
