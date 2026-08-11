@@ -86,7 +86,7 @@ FAQ · accordion · nested headings · pictures
 
 <b>Operational Database</b><br><br>
 
-<img src="assets/SQLITE.jpg" width="230"/>
+<img src="assets/Sqlite.png" width="230"/>
 
 <br>
 Flights · tour sessions · availability
