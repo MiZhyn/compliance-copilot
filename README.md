@@ -43,6 +43,63 @@ A traditional chatbot is not enough because different information requires diffe
 
 ## 2. Demo
 
+### Multi-Source Data Handling
+The copilot combines unstructured knowledge sources with structured operational data.
+
+<table>
+<tr>
+
+<td width="25%" align="center">
+
+<b>PDF Policy</b><br><br>
+
+<img src="assets/PDF.jpg" width="230"/>
+
+<br>
+Headings · paragraphs · infographics
+
+</td>
+
+<td width="25%" align="center">
+
+<b>Word SOP</b><br><br>
+
+<img src="assets/WORD.jpg" width="230"/>
+
+<br>
+Procedures · numbered steps · links
+
+</td>
+
+<td width="25%" align="center">
+
+<b>Web Content</b><br><br>
+
+<img src="assets/FST.jpg" width="230"/>
+
+<br>
+FAQ · accordion · nested headings · pictures
+
+</td>
+
+<td width="25%" align="center">
+
+<b>Operational Database</b><br><br>
+
+<img src="assets/SQLITE.jpg" width="230"/>
+
+<br>
+Flights · tour sessions · availability
+
+</td>
+
+</tr>
+</table>
+PDF, Word and web content are processed through the RAG pipeline for policy and procedural knowledge.
+
+Flight schedules and Free Singapore Tour sessions are stored in SQLite and queried directly as structured operational data.
+
+### Example Request
 Example request:
 
 > **“I’m an Indian passport holder. I arrive on SQ12 on Aug 20 and depart on SQ318 on Aug 20. Which Free Singapore Tours can I join, and do I need a visa?”**
