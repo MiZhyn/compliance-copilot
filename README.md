@@ -64,7 +64,7 @@ Headings · paragraphs · infographics
 
 <b>Word SOP</b><br><br>
 
-<img src="assets/WORD.jpg" width="230"/>
+<img src="assets/word.jpg" width="230"/>
 
 <br>
 Procedures · numbered steps · links
